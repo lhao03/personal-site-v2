@@ -1,0 +1,15 @@
+- link_name: medium 
+  link: https://medium.com/@hao.lucyy/my-thoughts-on-ubuntu-from-the-perspective-of-a-lifelong-windows-user-2ef6b890edf3
+  fa: /res/fontawesome/medium-m.svg
+- link_name: email
+  link: mailto:hao.lucyy@gmail.com
+  fa: /res/fontawesome/envelope.svg
+- link_name: github
+  link: https://github.com/lhao03
+  fa: /res/fontawesome/github.svg
+- link_name: linkedin
+  link: https://linkedin.com/in/lucy-hao
+  fa: /res/fontawesome/linkedin-in.svg
+# - link_name: 
+#   link: 
+#   fa:

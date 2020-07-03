@@ -1,1 +1,2 @@
-# personal-site-v2
+# ILL FIX THIS LATER
+# personal site with hugo! 

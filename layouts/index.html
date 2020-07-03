@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    {{partial "head/head.html" .}}
+    <body>
+        <!-- begin content -->
+        <div class="landing" id="landing">
+            {{partial "landing/landing.html" . }}
+        </div>
+
+        <!-- bio  -->
+        <h2>about</h2>
+        <div class="bio" id="bio">
+            {{partial "bio/bio.html" . }}
+        </div>
+        <!-- end bio -->
+      
+        <!-- jobs -->
+        <div class="jobs" id="jobs">
+            {{partial "jobs/jobs.html" . }}
+        </div>
+        <!-- end jobs  -->
+
+        <!-- projects -->
+        <h2>projects</h2>
+        <div class="projects" id="projects">
+            {{partial "projects/projects.html" . }}
+        </div>
+        <!-- end projects  -->
+
+        <!-- blog  -->
+        <!-- <h2>blog</h2> -->
+        <div class="blog" id="blog">
+            {{partial "other/blog/blog.html" . }}
+        </div>
+        <!-- end blog -->
+
+     
+        <div class="contact" id="contact">
+            <h2>contact</h2>
+           <div class="links" style="margin: auto;">
+            {{range $.Site.Data.links}}
+            <a href="{{.link}}" target="_blank" style="font-family: 'Open Sans'; text-decoration: none;">
+            <img src="{{.fa}}"></a>
+            {{end}}
+           </div>
+           <p>&copy; Lucy Hao 2020</p>
+        </div>
+        <!-- end content  -->
+
+        <!-- load js stuff -->
+        <script src="/script.js"></script>
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    </body>
+</html>
