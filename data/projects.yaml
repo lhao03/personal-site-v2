@@ -83,7 +83,7 @@
   short_desc: Made with Hugo Templates
   links:
     - link_name: Github
-      link: https://github.com/lhao03/Personal-Website-with-Templating
+      link: https://github.com/lhao03/personal-site-v2
   desc: 
     My inspiration for using Hugo comes from my fustration of scrolling through long html files. I found building an extensible static site appealing and since I was learning Golang, Hugo seemed like the perfect fit to practice templating. I'm messy when it comes to writing code and hugo forces you to keep your files very structured while generating html code for you from a yaml file so this was a winwin for me!
   techlist:
