@@ -78,4 +78,12 @@
     #projects div.card div.container div.desc div.techlist p.button {
         font-size: 6px;
     }
+
+    #projects div.card div.container h3{
+        font-size: 15px;
+    }
+
+    #projects div.card div.container a{
+        font-size: 12px;
+    }
 }
