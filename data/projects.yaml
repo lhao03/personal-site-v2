@@ -6,7 +6,7 @@
     - link_name: Devpost
       link: https://devpost.com/software/ecoeats-sgwzhp
   desc: 
-    Project lead on EcoEats, an Android app that helps users recognize the environmental impacts of their diets through intuitve terms such as kilometres driven, trees cut down and water user. Our app has a database containing common foods and their carbon dioxide emmisions, and we take the keyword with the highest predictive percertange and search our database for that keyword. Worked on backend by connecting phone camera to the Google Cloud Vision API. Also helped in connecting the Figma generated UI to the backend. 
+    Project lead on EcoEats, an Android app that helps users recognize the environmental impacts of their diets through intuitive terms such as kilometers driven, trees cut down, and water usage. Our app has a database containing common foods and their carbon dioxide emissions, and we take the keyword with the highest predictive percentage and search our database for that keyword. Worked on the backend by connecting the user's phone camera to the Google Cloud Vision API. Also helped in connecting the Figma generated UI components to the backend. 
   techlist: 
     - Java
     - XML
@@ -21,7 +21,7 @@
     - link_name: Github
       link: https://github.com/lhao03/CPSC-210-Project
   desc:
-    This application will allow the user to track their food diary. They can create their own foods or search them up through the application. This application also allow the user to track what is in the fridge and it will display how many days remaining until the food expires.
+    This application enables the user to track their food diary. They can create their own foods or search them up through the application. I connected to the FDA API to bring back food caloric descriptions. This application also allows the user to track what is in the fridge and it will display how many days remaining until the food expires. I demonstrated concepts such as class inheritance, design patterns, and fulfilling user stories.
   techlist:
     - Java
     - Swing
@@ -34,7 +34,7 @@
     - link_name: Github 
       link: https://github.com/lhao03/Nutrin
   desc:
-    Front end lead on food and fridge tracking app. Inspiration for app comes from being a busy university student and wanting to be healthy. Front end is implemented in Figma and Dart while backend is implemented through Firebase noSQL. 
+    I become frustrated with how bulky other food tracking apps were (and the annoying popup ads always asking to pay for premium) and the inability to customize my own macronutrients, leading to me wanting to build my own food tracking app. The front end is designed in Figma while the backend is written in Dart connected to Firebase. 
   techlist:
   - Flutter
   - Dart
@@ -42,7 +42,7 @@
   - Figma 
   img_path: /res/nutrin.jpg
 
-- name: Recipe Nest
+- name: Recipe Nest (NwHacks 2020)
   short_desc: Web Development 
   links: 
     - link_name: Github 
@@ -50,7 +50,7 @@
     - link_name: Devpost
       link: https://devpost.com/software/recipe-finder-v5me7q
   desc:
-    Our web app for 2020 nwHacks, Recipe Nest is a chat bot deployed on Slack, the Web, and through calls. Users simply enter in all the filters they would like their recipe to contain and Recipe Nest finds a recipe conforming to the users' requests! We believe that making this application as accessible as possible reflects our goal of making it easy to get started with cooking at home and not wasting food! 
+    Recipe Nest is a chatbot deployed on Slack, the Web, and through calls. Users can talk to the application as if they were talking to a real chef including all their dietary restrictions and food preferences and Recipe Nest finds a recipe conforming to the users' requests. A chatbot (Dialogflow) was trained to be able to pick out certain parts of a user's conversation and sends the query to an API which is then returned to the user in a presentable form. 
   techlist: 
   - Python
   - Bootstrap 
@@ -61,7 +61,7 @@
   - Dialogflow
   img_path: /res/recipenest.jpg
 
-- name: ASL Translator
+- name: ASL Translator (Local Hack Day 2019)
   short_desc: Web Development 
   links: 
     - link_name: Github 
@@ -69,7 +69,7 @@
     - link_name: Devpost
       link: https://devpost.com/software/sign-language-translator-fq481t
   desc:
-    Our web app for Local Hack Day 2019, quickly translates either speech or text to ASL. Users can either type or speak directly to the web app, and in return, are given a translation of their speech in ASL. For common phrases, it returns a picture describing the motion, while other words are directly translated using the ASL alphabet. A Google Cloud Speech-to-Text API that utilizes neural networks is able to translate speech with astounding accuracy. The app is easy to use, and more efficient than searching up commands. This creates a pathway for those hard of hearing and those who have never been introduced to ASL.
+    This ASL translator quickly translates either speech or text to ASL. Users can either type or speak directly to the web app, and in return, are given a translation of their speech in ASL. For common phrases, it returns a picture describing the motion, while other words are directly translated using the ASL alphabet. A Google Cloud Speech-to-Text API that utilizes neural networks can translate speech with astounding accuracy. The app is easy to use, and more efficient than searching up commands. This creates a pathway for those hard of hearing and those who have never been introduced to ASL.
   techlist: 
   - Python
   - Bootstrap 
@@ -84,7 +84,8 @@
   links:
     - link_name: Github
       link: https://github.com/lhao03/Personal-Website-with-Templating
-  desc: My inspiration for using Hugo comes from my own fustration of scrolling through long html files and jzhao.xyz. I found building an extensible static site really appealing and since I was learning Golang, Hugo seemed like the perfect fit to practice templating.
+  desc: 
+    My inspiration for using Hugo comes from my fustration of scrolling through long html files. I found building an extensible static site appealing and since I was learning Golang, Hugo seemed like the perfect fit to practice templating. I'm messy when it comes to writing code and hugo forces you to keep your files very structured while generating html code for you from a yaml file so this was a winwin for me!
   techlist:
   - Hugo
   - Javascript
