@@ -1,7 +1,7 @@
-# personal site with hugo! 
-## why 
-I'm a really messy when it comes to writing code so hugo forced me to keep my files very structured. Additionally, I hated having to copy paste huge portions of html everytime I wanted to add new content so I decided to template my site. I chose hugo because I was learning go and thought this could be some good practice. inspiration from: https://github.com/jackyzha0/website-v2
+# personal site with hugo and go templates! 
+## why hugo?
+I'm a really messy when it comes to writing code an hugo forces you to keep youre files very structured while generating html code for you from a yml file so this was a winwin for me! I chose hugo because I was learning go (and I'm not very familiar with react). inspiration from: https://github.com/jackyzha0/website-v2
 
-## try it out
+## try it out!
 To try it out run `hugo server`. To rebuild run `hugo`. To push run `.deploy/sh`
 
