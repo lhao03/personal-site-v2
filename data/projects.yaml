@@ -92,6 +92,18 @@
   - CSS
   img_path: null
 
+- name: Data Visualization and ML Representation of USA Spending and Incarceration Rates
+  short_desc: A data visualization made with with Dash, Pandas, Pyspark and Tensorflow!
+  links:
+    - link_name: Github
+      link: https://github.com/lhao03/usa-finances-and-incarceration-rates 
+    - link_name: Devpost
+      link: https://devpost.com/software/data-visualization-of-usa-spending?ref_content=user-portfolio&ref_feature=in_progress
+  desc: I challenged myself to complete the sociocultural track at Hack for the People, and this lead me deciding to use my data science skills to visualise and analyze some data. 
+  techlist: 
+  - CSS
+  - Python 
+
 # - name:
 #   short_desc:
 #   links:
