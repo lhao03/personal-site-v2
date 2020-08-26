@@ -136,27 +136,6 @@ div.bio div.button {
 div.bio div.button:hover, div.bio div.button:focus, div.bio div.button:active  {
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
 }
-/* awards */
-#awards div.center {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
-
-#awards h1 {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
-/* contact */
-div.contact {
-    height: 30vw;
-    background-image: url(/res/blob.svg);
-    background-repeat: no-repeat;
-    background-size: 100vw;
-}
 
 #contact div.links {
     /* position: absolute;
