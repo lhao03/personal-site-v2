@@ -123,7 +123,7 @@ div.bio div.button {
     padding: 2px 5px 2px 5px;
     width: max-content;
     height: 30px;
-    border-radius: 50px;
+    border-radius: 25px;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
