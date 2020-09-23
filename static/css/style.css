@@ -55,6 +55,7 @@ div.landing p {
 }
 
 div.landing p.statement a.highlight {
+    text-decoration: none;
     color: var(--highlight);
     font-weight: 700;
 }
@@ -97,7 +98,7 @@ div.landing img.arrow:hover {
 /* bio */
 div.bio {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 50%;
     margin: auto;
 }
@@ -120,10 +121,10 @@ div.bio p.resume {
 div.bio div.button {
     display: inline-block;
     background-color: var(--highlight);
-    padding: 2px 5px 2px 5px;
+    padding: 3px;
     width: max-content;
     height: 30px;
-    border-radius: 25px;
+    border-radius: 10px;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
@@ -139,20 +140,16 @@ div.bio div.button:hover, div.bio div.button:focus, div.bio div.button:active  {
 
 /* experiance  */
 #jobs {
-    margin: auto;
 }
 
 #jobs div.center {
-    display: flex;
-    flex-direction: column;
-    padding-left: 50vw;
 }
 
 #jobs div.card {
 
 }
 
-#jobs div.card description {
+#jobs div.card div.description {
 
 }
 
@@ -165,9 +162,8 @@ div.bio div.button:hover, div.bio div.button:focus, div.bio div.button:active  {
 }
 
 #jobs div.card div.title_date h2 {
-
+    font-size: 10;
 }
-
 
 #contact div.links {
     /* position: absolute;
