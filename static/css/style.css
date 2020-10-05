@@ -133,6 +133,7 @@ div.bio div.button {
     -webkit-transition-property: box-shadow;
     transition-property: box-shadow;
     margin-right: 10px;
+    margin-top: 5px;
 }
 
 div.bio div.button:hover, div.bio div.button:focus, div.bio div.button:active  {
