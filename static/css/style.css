@@ -167,13 +167,16 @@ div.bio div.button:hover, div.bio div.button:focus, div.bio div.button:active  {
     font-size: 10;
 }
 
+
 #contact div.links {
-    /* position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%); */
+    /* left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
     display: flex;
     flex-direction: row;
-    padding-left: 50vw;
+    padding-left: 50vw; */
+    z-index: 10;
+    padding-left: 35vw;
 }
 
 #contact img {
