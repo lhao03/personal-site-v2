@@ -1,3 +1,20 @@
+- name: ASL Translator (Local Hack Day 2019)
+  short_desc: Web Development 
+  links: 
+    - link_name: Github 
+      link: https://github.com/rmehri01/Sign-Language-Translator
+    - link_name: Devpost
+      link: https://devpost.com/software/sign-language-translator-fq481t
+  desc:
+    This ASL translator quickly translates either speech or text to ASL. Users can either type or speak directly to the web app, and in return, are given a translation of their speech in ASL. For common phrases, it returns a picture describing the motion, while other words are directly translated using the ASL alphabet. A Google Cloud Speech-to-Text API that utilizes neural networks can translate speech with astounding accuracy. The app is easy to use, and more efficient than searching up commands. This creates a pathway for those hard of hearing and those who have never been introduced to ASL.
+  techlist: 
+  - Python
+  - Bootstrap 
+  - HTML
+  - CSS
+  - Heroku
+  - GCP
+  
 - name: Data Visualization and ML Representation of USA Spending and Incarceration Rates
   short_desc: A data visualization made with with Dash, Pandas, Pyspark and Tensorflow!
   links:
@@ -26,19 +43,6 @@
     - GCP
     - Google Vision API
   img_path: /res/ecoeats.jpg
-
-- name: Food and Fridge Tracker
-  short_desc: CPSC 210 Final Project 
-  links:
-    - link_name: Github
-      link: https://github.com/lhao03/CPSC-210-Project
-  desc:
-    This application enables the user to track their food diary. They can create their own foods or search them up through the application. I connected to the FDA API to bring back food caloric descriptions. This application also allows the user to track what is in the fridge and it will display how many days remaining until the food expires. I demonstrated concepts such as class inheritance, design patterns, and fulfilling user stories.
-  techlist:
-    - Java
-    - Swing
-    - FDA API
-  img_path: null
 
 # - name: Nutrin
 #   short_desc: Cross Platform App Development
@@ -72,24 +76,6 @@
   - Spoonacular API
   - Dialogflow
   img_path: /res/recipenest.jpg
-
-- name: ASL Translator (Local Hack Day 2019)
-  short_desc: Web Development 
-  links: 
-    - link_name: Github 
-      link: https://github.com/rmehri01/Sign-Language-Translator
-    - link_name: Devpost
-      link: https://devpost.com/software/sign-language-translator-fq481t
-  desc:
-    This ASL translator quickly translates either speech or text to ASL. Users can either type or speak directly to the web app, and in return, are given a translation of their speech in ASL. For common phrases, it returns a picture describing the motion, while other words are directly translated using the ASL alphabet. A Google Cloud Speech-to-Text API that utilizes neural networks can translate speech with astounding accuracy. The app is easy to use, and more efficient than searching up commands. This creates a pathway for those hard of hearing and those who have never been introduced to ASL.
-  techlist: 
-  - Python
-  - Bootstrap 
-  - HTML
-  - CSS
-  - Heroku
-  - GCP
-  img_path: /res/asl.jpg
 
 - name: This Website!
   short_desc: Made with Hugo Templates
