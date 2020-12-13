@@ -1,6 +1,6 @@
 <div class="center">
-<p class="statement" style="margin-left: 250px; font-family: Open Sans;">
-    <a style="margin-left: 250px; font-family: Open Sans; font-size: 30px; color: #EFB0A1;">nwHacks</a>: Top 35 (Wolfram Award), Voiceflow sponsor award</p>
-<p class="statement" style="margin-left: 250px; font-family: Open Sans;">
-    <a style="margin-left: 250px; font-family: Open Sans; font-size: 30px; color: #EFB0A1;">cmd-f</a>: Finalists, Top 35 (Wolfram Award), Realtor sponsor award</p>
+    {{range $.Site.Data.courses}}
+    <p class="statement" style="margin-left: 250px; font-family: Open Sans;">
+        <a style="margin-left: 250px; font-family: Open Sans; font-size: 25px; color: #EFB0A1;">{{.name}}: </a>{{.short_desc}}</p>
+    {{end}}
 </div>

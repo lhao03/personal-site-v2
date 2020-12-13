@@ -1,0 +1,20 @@
+# - name:
+#   short_desc:
+- name: CPSC 110
+  short_desc: Computation, Programs, and Programming
+- name: CPSC 121
+  short_desc: Models of Computation
+- name: MATH 100
+  short_desc: Differential Calculus with Applications to Physical Sciences and Engineering
+- name: ATSC 113
+  short_desc: Applied Meteorology
+- name: CPSC 210
+  short_desc: Software Construction
+- name: DSCI 100
+  short_desc: Introduction to Data Science
+- name: MATH 101
+  short_desc: Integral Calculus with Applications to Physical Sciences and Engineering
+- name: CHEM 130
+  short_desc: Thermodynamics, Kinetics and Organic Chemistry 
+- name: BIOL 112
+  short_desc: Biology of the Cell
