@@ -3,13 +3,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Open+Sans:wght@400;600;700;800&display=swap');
 
 :root {
-    --lightpink: #FFFBFF;
-    --green: #94A89A;
-    --orange: #EFB0A1;
+    --light: #B2CEDE;
+    --dark: #395B50;
+    --darker: #AD7A99;
 
-    --background: var(--lightpink) !important;
-    --highlight: var(--green) !important;
-    --header: var(--orange) !important;
+    --background: var(--light) !important;
+    --highlight: var(--dark) !important;
+    --header: var(--darker) !important;
 }
 
 html {
@@ -70,32 +70,12 @@ div.landing h1.header {
     font-size: 3em;
 }
 
-#landing img.arrow {
-    width: 3em;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-div.landing img.arrow:hover {
-    border-radius: 50%;
-    animation: pulse 2s infinite;
-
-}
-
-@keyframes pulse {
-    0% {
-        width: 2em;
-    }
-    70% {
-        width: 3em;
-    }
-    100% {
-        width: 2em;
-    }
-  }
-
 /* bio */
+
+div.outer-bio {
+    display: flex;
+}
+
 div.bio {
     display: flex;
     flex-direction: column;
@@ -104,11 +84,12 @@ div.bio {
 }
 
 div.bio img {
-    height: 50vh;
+    width: 40vw;
 }
 
 div.bio p.bio {
     font-family: 'Montserrat';
+    font-size: 13px;
 }
 
 div.bio p.resume {
@@ -139,6 +120,13 @@ div.bio div.button {
 div.bio div.button:hover, div.bio div.button:focus, div.bio div.button:active  {
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
 }
+
+div.bio p.bio a.highlight {
+    text-decoration: none;
+    color: var(--highlight);
+    font-weight: 700;
+}
+
 
 /* experiance  */
 #jobs {
@@ -206,10 +194,12 @@ div.bio div.button:hover, div.bio div.button:focus, div.bio div.button:active  {
     }
     
     /* bio */
-    div.bio {
-        display: flex;
-        flex-direction: column;
-        width: 70%;
+    div.outer-bio {
+        width: 90%;
+    }
+
+    div.outer-bio img {
+        display: none;
     }
 
     div.contact {
@@ -226,6 +216,6 @@ div.bio div.button:hover, div.bio div.button:focus, div.bio div.button:active  {
 
     #contact img {
         height: 25px;
-        padding-left: 10px;
+        padding-left: 5px;
     }
 }
