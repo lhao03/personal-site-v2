@@ -1,3 +1,18 @@
 baseURL = "https://haolucy.tech/"
 languageCode = "en-us"
 title = "Lucy Hao | UBC"
+
+[permalinks]
+    page = "/:filename/"
+
+[[params.nav]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 3
+
+[[params.nav]]
+  identifier = "projects"
+  name = "Projects"
+  url = "/tags/"
+  weight = 3
