@@ -2,8 +2,6 @@
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 50%;
-    margin: auto;
     margin-bottom: 10px;
     border-radius: 5px;
     background-color: white;
@@ -63,7 +61,7 @@
 @media (max-width: 768px) {
     #projects div.card{
         /* Add shadows to create the "card" effect */
-        width: 80%;
+        width: 90%;
         margin: auto;
         margin-bottom: 10px;
         border-radius: 5px;
@@ -85,5 +83,9 @@
 
     #projects div.card div.container a{
         font-size: 12px;
+    }
+
+    #projects div.links {
+        display: none;
     }
 }

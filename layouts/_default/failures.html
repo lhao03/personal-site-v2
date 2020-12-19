@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>fails</title>
+        <meta name="viewport" content="width=device-width; initial-scale=1.0;">
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    
+    <header>
+        <a href="{{ .Site.BaseURL }}">home </a>
+        <a href="{{ .Site.BaseURL }}/about">about </a>
+        <a href="{{ .Site.BaseURL }}/classes">courses </a>
+        <a href="{{ .Site.BaseURL }}/projects">projects </a>
+        <a href="{{ .Site.BaseURL }}/failures" class="curr">failures </a>
+    </header>
+    
+    <div class="failures">
+        <h2>🤷🏻 failures</h2>
+        {{range $.Site.Data.failure}}
+        <h3>{{.year}}</h3>
+        {{range .fails}}
+        <li class="statement">{{.}}</li>
+        {{end}}
+        {{end}}
+    </div>
+</html> 

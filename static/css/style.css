@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Open+Sans:wght@400;600;700;800&display=swap');
 
 :root {
+    --font : 'Montserrat';
     --light: #B2CEDE;
     --dark: #395B50;
     --darker: #AD7A99;
@@ -21,12 +22,12 @@ html {
 body {
     margin: 0;
     width: 100vw;
-    height: 100vh;
+    height: fit-content;
     background-color: var(--background);
 }
 
 h2 {
-    font-family: 'Montserrat';
+    font-family: var(--font);
     font-weight: 800;
     font-size: 3em;
     padding-left: 5vw;
@@ -36,17 +37,42 @@ h2:hover {
     color: var(--header);
 }
 
-/* landing */
-#landing {
-    width: 100vw;
-    height: 100vh;
+/*header*/
+header {
+    padding-top: 2vh;
+    width: 100%;
+    text-align: center;
 }
 
-#landing div.center {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+header a {
+    text-decoration: none;
+    font-family: var(--font);
+    font-weight: 800;
+    font-size: 2em;
+    color: black;
+}
+
+header a.curr {
+    text-decoration: none;
+    font-family: var(--font);
+    font-weight: 800;
+    color: var(--header);
+}
+
+header a:hover {
+    color: var(--header);
+}
+/*header*/
+
+/* landing */
+#landing {
+    width: 60%;
+    height: fit-content;
+    margin: auto;
+}
+
+#landing img.shibe {
+    height: 50px;
 }
 
 div.landing p {
@@ -60,18 +86,28 @@ div.landing p.statement a.highlight {
     font-weight: 700;
 }
 
+div.music {
+    display: block;
+}
+
 div.landing h1.header a.name {
     color: var(--header);
 }
 
 div.landing h1.header {
-    font-family: 'Montserrat';
+    font-family: var(--font);
     font-weight: 800;
     font-size: 3em;
 }
 
-/* bio */
+div.landing h3.lesser-header {
+    font-family: var(--font);
+    font-weight: 800;
+    font-size: 1.5em;
+}
+/*landing*/
 
+/* bio */
 div.outer-bio {
     display: flex;
 }
@@ -88,12 +124,12 @@ div.bio img {
 }
 
 div.bio p.bio {
-    font-family: 'Montserrat';
+    font-family: var(--font);
     font-size: 13px;
 }
 
 div.bio p.resume {
-    font-family: 'Montserrat';
+    font-family: var(--font);
     text-align: center;
     margin: 0 auto;
     padding-top: 5px;
@@ -126,50 +162,69 @@ div.bio p.bio a.highlight {
     color: var(--highlight);
     font-weight: 700;
 }
+/* bio */ 
 
+/* jobs */
+/* jobs */
 
-/* experiance  */
-#jobs {
+/* failure */
+div.failures {
+    margin: auto;
+    width: 50%;
+    font-family: var(--font);
 }
 
-#jobs div.center {
+div.failures h3 {
+    font-family: var(--font);
+    font-weight: 800;
+    font-size: 1.5em;
 }
 
-#jobs div.card {
+div.failures p.statement {
+    font-size: .8em;
+}
+/* failure */
 
+/* projects */
+div.projects {
+    margin: auto;
+    width: 50%;
+}
+/* projects */
+
+/* courses */
+div.classes {
+    margin: auto;
+    width: 50%;
+    font-family: var(--font);
 }
 
-#jobs div.card div.description {
-
-}
-
-#jobs div.card div.title_date {
-
-}
-
-#jobs div.card div.title_date h1 {
-
-}
-
-#jobs div.card div.title_date h2 {
-    font-size: 10;
+div.classes p.short_desc {
+    font-size: 10px;
 }
 
 
-#contact div.links {
-    /* left: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
+div.classes div.terms {
     display: flex;
-    flex-direction: row;
-    padding-left: 50vw; */
-    z-index: 10;
-    padding-left: 35vw;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* courses */
+
+/*footer*/
+div.contact {
+    margin: auto;
+    width: 50%;
 }
 
 #contact img {
     height: 5vw;
-    padding-left: 25px;
+}
+
+div.contact div.links {
+    display: flex;
+    justify-content: space-around;
 }
 
 #contact p {
@@ -179,43 +234,69 @@ div.bio p.bio a.highlight {
     font-family: 'Open Sans';
 }
 
+div.contact h1.header {
+    font-family: var(--font);
+    font-weight: 800;
+    font-size: 3em;
+}
+
+/*footer*/
+
 @media (max-width: 768px) {
+
+    div.classes {
+        width: 80%;
+    }
+
+    #landing div.music {
+        display: none;
+    }
+
+    header a {
+        font-size: 15px;
+    }
+
     /* landing */
     div.landing p.statement {
         font-size: 15px;
     }
 
-    #landing div.center img.shibe {
-        display: none;
-    }
-
     div.landing h1.header {
         font-size: 25px;
     }
-    
+    /* landing */
+
     /* bio */
-    div.outer-bio {
+    div.bio {
         width: 90%;
     }
 
-    div.outer-bio img {
+    div.bio img {
         display: none;
     }
 
-    div.contact {
-        height: 30vh;
-        background-size: 150vw;
+    #landing img.shibe {
+        height: 25px;
     }
 
-    #contact div.links {
-        position: absolute;
-        left: 25%;
-        padding-bottom: 25px;
-        transform: translate(-50%, -50%);
+    div.bio h2 {
+        font-size: 25px;
+    }
+
+    div.classes h2 {
+        font-size: 25px;
+    }
+
+    /* bio */
+    div.projects h2 {
+        font-size: 25px;
+    }
+
+    div.failures h2 {
+        font-size: 25px;
     }
 
     #contact img {
-        height: 25px;
-        padding-left: 5px;
+        height: 8vw;
     }
 }

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>projects</title>
+        <meta name="viewport" content="width=device-width; initial-scale=1.0;">
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    
+    <header>
+        <a href="{{ .Site.BaseURL }}">home </a>
+        <a href="{{ .Site.BaseURL }}/about">about </a>
+        <a href="{{ .Site.BaseURL }}/classes">courses </a>
+        <a href="{{ .Site.BaseURL }}/projects" class="curr">projects </a>
+        <a href="{{ .Site.BaseURL }}/failures">failures</a>
+    </header>
+    
+    <div class="projects" id="projects">
+        <h2>🔨 projects</h2>
+        <div class="project_list">
+            {{range $.Site.Data.projects}}
+            <div class="card">
+                <div class="container">
+                    <h3 class="title">{{.name}} - <a>{{.short_desc}}</a></h3>
+                    <!-- <div class="links">
+                    {{range $i, $e := .links}}
+                    <a href="{{$e.link}}" style="text-decoration: none; font-family: 'Open Sans';">
+                        {{if $i}}| {{end}}{{$e.link_name}}</a>
+                    {{end}}
+                </div> -->
+                <div class="desc">
+                    <p>{{.desc}}</p>
+                        <div class="techlist">{{range .techlist}}
+                            <p class="button" style="background-color: {{index $.Site.Data.colors .}};">{{.}}</p>
+                              {{end}}</div>
+                </div>
+                </div>
+            </div>
+            {{end}}
+        </div>
+    </div>
+</html> 
