@@ -110,6 +110,7 @@ div.landing h3.lesser-header {
 /* bio */
 div.outer-bio {
     display: flex;
+
 }
 
 div.bio {
@@ -120,12 +121,12 @@ div.bio {
 }
 
 div.bio img {
-    width: 40vw;
+    width: 30vw;
 }
 
 div.bio p.bio {
     font-family: var(--font);
-    font-size: 13px;
+    font-size: 20px;
 }
 
 div.bio p.resume {
@@ -190,6 +191,7 @@ div.projects {
     margin: auto;
     width: 50%;
 }
+
 /* projects */
 
 /* courses */
@@ -200,9 +202,20 @@ div.classes {
 }
 
 div.classes p.short_desc {
-    font-size: 10px;
+    font-size: 15px;
 }
 
+div.classes p.course {
+    font-size: 18px;
+}
+
+div.classes h3 {
+    font-size: 25px;
+}
+
+div.classes h4 {
+    font-size: 25px;
+}
 
 div.classes div.terms {
     display: flex;
@@ -240,6 +253,10 @@ div.contact h1.header {
     font-size: 3em;
 }
 
+#contact div.mobile {
+    display: none;
+}
+
 /*footer*/
 
 @media (max-width: 768px) {
@@ -271,8 +288,13 @@ div.contact h1.header {
         width: 90%;
     }
 
-    div.bio img {
-        display: none;
+    div.outer-bio {
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.outer-bio img {
+        width: 80vw;
     }
 
     #landing img.shibe {
@@ -281,6 +303,10 @@ div.contact h1.header {
 
     div.bio h2 {
         font-size: 25px;
+    }
+
+    div.bio p.bio {
+        font-size: 15px;
     }
 
     div.classes h2 {
@@ -298,5 +324,15 @@ div.contact h1.header {
 
     #contact img {
         height: 8vw;
+    }
+
+    #contact div.links {
+        display: none;
+    }
+
+    #contact div.mobile {
+        display: contents;
+        display: flex;
+        justify-content: space-around;
     }
 }
