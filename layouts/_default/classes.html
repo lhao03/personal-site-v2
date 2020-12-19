@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Lucy Hao: classes</title>
+        <meta name="viewport" content="width=device-width; initial-scale=1.0;">
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    
+    <header>
+        <a href="{{ .Site.BaseURL }}">home </a>
+        <a href="{{ .Site.BaseURL }}/about">about </a>
+        <a href="{{ .Site.BaseURL }}/classes" class="curr">courses </a>
+        <a href="{{ .Site.BaseURL }}/projects">projects </a>
+        <a href="{{ .Site.BaseURL }}/failures">failures</a>
+    </header>
+    
+    <div class="classes">
+        <h2>📚 courses</h2>
+        {{range $.Site.Data.courses}}
+        <h3 class="year">{{.year}}</h3>
+        <div class="terms">
+            {{if (.spring)}}
+            <div class="spring">
+                <h4>Spring {{.year}}</h4>
+                {{range .spring}}
+                <p class="course">{{.course}}</p>
+                <p class="short_desc">{{.short_desc}}</p>
+                {{end}}
+            </div>
+            {{end}}
+            {{if (.summer)}}
+            <div class="summer">
+                <h4>Summer {{.year}}</h4>
+                {{range .summer}}
+                <p class="course">{{.course}}</p>
+                <p class="short_desc">{{.short_desc}}</p>
+                {{end}}
+            </div>
+            {{end}}
+            {{ if (.winter)}}
+            <div class="winter">
+                <h4>Winter {{.year}}</h4>
+                {{range .winter}}
+                <p class="course">{{.course}}</p>
+                <p class="short_desc">{{.short_desc}}</p>
+                {{end}}
+            </div>
+            {{end}}
+        </div>
+        {{end}}
+    </div>
+</html> 

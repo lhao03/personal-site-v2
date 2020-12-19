@@ -1,0 +1,76 @@
+@media (max-width: 768px) {
+    div.classes p.short_desc {
+        font-size: 20px;
+    }
+    
+    
+    div.classes div.terms {
+        display: flex;
+        margin: 10px;
+        padding: 10px;
+    }
+    
+
+
+    #landing div.music {
+        display: none;
+    }
+    
+
+
+    header a {
+        font-size: 10px;
+    }
+
+    /* landing */
+    div.landing p.statement {
+        font-size: 15px;
+    }
+
+    div.landing h1.header {
+        font-size: 25px;
+    }
+    /* landing */
+
+    /* bio */
+    div.bio {
+        width: 90%;
+    }
+
+    div.bio img {
+        display: none;
+    }
+
+    div.bio h2 {
+        font-size: 25px;
+    }
+
+    div.classes h2 {
+        font-size: 25px;
+    }
+
+    div.classes {
+        margin: auto;
+        width: 80%;
+    }
+
+    div.contact {
+        height: 30vh;
+        background-size: 150vw;
+    }
+    /* bio */
+
+    /* contact */
+    #contact div.links {
+        position: absolute;
+        left: 25%;
+        padding-bottom: 25px;
+        transform: translate(-50%, -50%);
+    }
+
+    #contact img {
+        height: 25px;
+        padding-left: 5px;
+    }
+    /* contact */
+}
