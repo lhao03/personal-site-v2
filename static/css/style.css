@@ -260,6 +260,19 @@ div.contact h1.header {
 /*footer*/
 
 @media (max-width: 768px) {
+    div.failures {
+        width: 85%;
+    }
+
+    div.projects {
+        width: 90%;
+    }
+    
+
+    div.classes div.terms {
+        display: flex;
+        flex-direction: column-reverse;
+    }
 
     div.classes {
         width: 80%;
