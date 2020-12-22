@@ -1,0 +1,89 @@
+:root {
+    --font : 'Montserrat';
+    --light: #B2CEDE;
+    --dark: #395B50;
+    --darker: #AD7A99;
+
+    --background: var(--light) !important;
+    --highlight: var(--dark) !important;
+    --header: var(--darker) !important;
+}
+
+/* bio */
+div.outer-bio {
+    display: flex;
+
+}
+
+div.bio {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+div.bio img {
+    width: 30vw;
+}
+
+div.bio p.bio {
+    font-family: var(--font);
+    font-size: 20px;
+}
+
+div.bio p.resume {
+    font-family: var(--font);
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+
+div.bio div.button {
+    display: inline-block;
+    background-color: var(--highlight);
+    padding: 3px;
+    width: max-content;
+    height: 30px;
+    border-radius: 10px;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+div.bio div.button:hover, div.bio div.button:focus, div.bio div.button:active  {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+div.bio p.bio a.highlight {
+    text-decoration: none;
+    color: var(--highlight);
+    font-weight: 700;
+}
+/* bio */ 
+
+/* jobs */
+div.bio {
+    font-family: var(--font);
+}
+
+div.bio div.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    transition: 0.3s;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+
+div.bio div.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* jobs */
