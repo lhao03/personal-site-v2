@@ -1,0 +1,48 @@
+:root {
+    --font : 'Montserrat';
+    --light: #B2CEDE;
+    --dark: #395B50;
+    --darker: #AD7A99;
+
+    --background: var(--light) !important;
+    --highlight: var(--dark) !important;
+    --header: var(--darker) !important;
+}
+
+/*footer*/
+div.contact {
+    margin: auto;
+    width: 50%;
+}
+
+#contact img {
+    height: 5vw;
+}
+
+div.contact div.links {
+    display: flex;
+    justify-content: space-around;
+}
+
+#contact p {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    font-family: 'Open Sans';
+}
+
+div.contact h1.header {
+    font-family: var(--font);
+    font-weight: 800;
+    font-size: 3em;
+}
+
+#contact div.mobile {
+    display: none;
+}
+
+div.col div.img img {
+    display: none;
+}
+
+/*footer*/

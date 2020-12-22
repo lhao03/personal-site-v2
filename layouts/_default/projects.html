@@ -1,11 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Lucy Hao: projects</title>
-        <meta name="viewport" content="width=device-width; initial-scale=1.0;">
-        <link rel="stylesheet" href="/css/style.css">
-    </head>
+    {{partial "head.html" .}}
     
     <header>
         <a href="{{ .Site.BaseURL }}">home </a>
@@ -30,9 +25,9 @@
                 </div>
                 <div class="desc">
                     <p>{{.desc}}</p>
-                        <!-- <div class="techlist">{{range .techlist}}
+                        <div class="techlist">{{range .techlist}}
                             <p class="button" style="background-color: {{index $.Site.Data.colors .}};">{{.}}</p>
-                              {{end}}</div> -->
+                              {{end}}</div>
                 </div>
                 </div>
             </div>

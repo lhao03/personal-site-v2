@@ -1,25 +1,41 @@
+:root {
+    --font : 'Montserrat';
+    --light: #B2CEDE;
+    --dark: #395B50;
+    --darker: #AD7A99;
+
+    --background: var(--light) !important;
+    --highlight: var(--dark) !important;
+    --header: var(--darker) !important;
+}
+
 @media (max-width: 768px) {
-    div.classes p.short_desc {
-        font-size: 20px;
+    div.bio img {
+        width: 90vw;
     }
-    
+    div.failures {
+        width: 85%;
+    }
+
+    div.projects {
+        width: 90%;
+    }
     
     div.classes div.terms {
         display: flex;
-        margin: 10px;
-        padding: 10px;
+        flex-direction: column-reverse;
     }
-    
 
+    div.classes {
+        width: 80%;
+    }
 
     #landing div.music {
         display: none;
     }
-    
-
 
     header a {
-        font-size: 10px;
+        font-size: 15px;
     }
 
     /* landing */
@@ -37,40 +53,47 @@
         width: 90%;
     }
 
-    div.bio img {
-        display: none;
+    div.outer-bio {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #landing img.shibe {
+        height: 25px;
     }
 
     div.bio h2 {
         font-size: 25px;
     }
 
+    div.bio p.bio {
+        font-size: 15px;
+    }
+
     div.classes h2 {
         font-size: 25px;
     }
 
-    div.classes {
-        margin: auto;
-        width: 80%;
-    }
-
-    div.contact {
-        height: 30vh;
-        background-size: 150vw;
-    }
     /* bio */
+    div.projects h2 {
+        font-size: 25px;
+    }
 
-    /* contact */
-    #contact div.links {
-        position: absolute;
-        left: 25%;
-        padding-bottom: 25px;
-        transform: translate(-50%, -50%);
+    div.failures h2 {
+        font-size: 25px;
     }
 
     #contact img {
-        height: 25px;
-        padding-left: 5px;
+        height: 8vw;
     }
-    /* contact */
+
+    #contact div.links {
+        display: none;
+    }
+
+    #contact div.mobile {
+        display: contents;
+        display: flex;
+        justify-content: space-around;
+    }
 }

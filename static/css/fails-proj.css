@@ -1,0 +1,35 @@
+:root {
+    --font : 'Montserrat';
+    --light: #B2CEDE;
+    --dark: #395B50;
+    --darker: #AD7A99;
+
+    --background: var(--light) !important;
+    --highlight: var(--dark) !important;
+    --header: var(--darker) !important;
+}
+
+/* failure */
+div.failures {
+    margin: auto;
+    width: 50%;
+    font-family: var(--font);
+}
+
+div.failures h3 {
+    font-family: var(--font);
+    font-weight: 800;
+    font-size: 1.5em;
+}
+
+div.failures p.statement {
+    font-size: .8em;
+}
+/* failure */
+
+/* projects */
+div.projects {
+    margin: auto;
+    width: 50%;
+}
+/* projects */

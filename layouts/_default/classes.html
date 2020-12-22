@@ -1,11 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Lucy Hao: classes</title>
-        <meta name="viewport" content="width=device-width; initial-scale=1.0;">
-        <link rel="stylesheet" href="/css/style.css">
-    </head>
+    {{partial "head.html" .}}
     
     <header>
         <a href="{{ .Site.BaseURL }}">home </a>
@@ -18,7 +13,6 @@
     <div class="classes">
         <h2>📚 courses</h2>
         {{range $.Site.Data.courses}}
-        <h3 class="year">{{.year}}</h3>
         <div class="terms">
             {{if (.spring)}}
             <div class="spring">
