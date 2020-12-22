@@ -1,11 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Lucy Hao: about</title>
-        <meta name="viewport" content="width=device-width; initial-scale=1.0;">
-        <link rel="stylesheet" href="/css/style.css">
-    </head>
+    {{partial "head.html" .}}
     
     <header>
         <a href="{{ .Site.BaseURL }}">home </a>
@@ -20,7 +15,7 @@
         <div class="outer-bio"> 
             <div class="intro">
                 <p class="bio">
-                    ✨ Thanks for checking out my site! I'm a chemistry nerd and aspiring developer who is interested in the health tech, fintech and environmental tech.
+                    ✨ Thanks for checking out my site! I'm a chemistry nerd and aspiring developer who is interested in health tech, fintech and environmental tech.
                     If you want to learn more about me feel free to email me at
                     <a href="mailto:hao.lucyy@gmail.com" class="highlight">hao.lucyy@gmail.com</a> and/or check out my resume!
                 </p>
@@ -32,6 +27,14 @@
                 <img src="/res/profile.svg" alt="/res/profile.png">
             </div>
         </div>
+        <h2>💼 work</h2>
+        {{ range $.Site.Data.jobs }}
+        <div class="job card">
+            <h3 class="company">{{.name}}</h3>
+            <h4 class="duration">{{.date}}</h4>
+            <p class="desc">{{.description}}</p>
+        </div>
+        {{ end }}
     </div>
     <br>
 </html>

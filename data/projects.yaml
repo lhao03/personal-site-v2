@@ -1,3 +1,16 @@
+- name: This Website!
+  short_desc: Made with Hugo Templates
+  links:
+    - link_name: Github
+      link: https://github.com/lhao03/personal-site-v2
+  desc: 
+    My inspiration for using Hugo comes from my fustration of scrolling through long html files. I found building an extensible static site appealing and since I was learning Golang, Hugo seemed like the perfect fit to practice templating. I'm messy when it comes to writing code and Hugo forces you to keep your files very structured while generating html code for you from a yaml file so this was a winwin for me!
+  techlist:
+  - Hugo
+  - HTML
+  - CSS
+  img_path: null
+  
 - name: ASL Translator (Local Hack Day 2019)
   short_desc: Web Development 
   links: 
@@ -40,23 +53,8 @@
     - Java
     - XML
     - Figma
-    - GCP
     - Google Vision API
   img_path: /res/ecoeats.jpg
-
-# - name: Nutrin
-#   short_desc: Cross Platform App Development
-#   links:
-#     - link_name: Github 
-#       link: https://github.com/lhao03/Nutrin
-#   desc:
-#     I become frustrated with how bulky other food tracking apps were (and the annoying popup ads always asking to pay for premium) and the inability to customize my own macronutrients, leading to me wanting to build my own food tracking app. The front end is designed in Figma while the backend is written in Dart connected to Firebase. 
-#   techlist:
-#   - Flutter
-#   - Dart
-#   - Firebase
-#   - Figma 
-#   img_path: /res/nutrin.jpg
 
 - name: Recipe Nest (NwHacks 2020)
   short_desc: Web Development 
@@ -70,25 +68,10 @@
   techlist: 
   - Python
   - Bootstrap 
-  - GCP 
   - HTML
   - CSS
-  - Spoonacular API
   - Dialogflow
   img_path: /res/recipenest.jpg
-
-- name: This Website!
-  short_desc: Made with Hugo Templates
-  links:
-    - link_name: Github
-      link: https://github.com/lhao03/personal-site-v2
-  desc: 
-    My inspiration for using Hugo comes from my fustration of scrolling through long html files. I found building an extensible static site appealing and since I was learning Golang, Hugo seemed like the perfect fit to practice templating. I'm messy when it comes to writing code and hugo forces you to keep your files very structured while generating html code for you from a yaml file so this was a winwin for me!
-  techlist:
-  - Hugo
-  - HTML
-  - CSS
-  img_path: null
 
 # - name:
 #   short_desc:
