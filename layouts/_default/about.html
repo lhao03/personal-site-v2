@@ -11,14 +11,17 @@
     </header>
     
     <div class="bio" id="bio">
-        <h2>💼 work</h2>
+        <h2>💼 work and experience</h2>
         {{ range $.Site.Data.jobs }}
         <div class="job card">
-            <h3 class="company">{{.name}}</h3>
-            <h4 class="duration">{{.date}}</h4>
-            <p class="desc">{{.description}}</p>
+                <div class="space-between">
+                    <h3 class="role">{{.name}} at <a href="{{.site}}" class="highlight">{{.company}}</a></h3>
+                    <p class="duration">{{.date}}</h4>
+                </div>
+            <p class="desc">{{.description}}</p> 
         </div>
         {{ end }}
+
         <h2>💁🏻 about</h2>
         <div class="outer-bio"> 
             <div class="intro">
