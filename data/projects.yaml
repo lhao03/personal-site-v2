@@ -1,10 +1,41 @@
-- name: This Website!
+- name: EcoEats
+  short_desc: Android App Development
+  links:
+    - link_name: Github
+      link: https://github.com/lhao03/cmdf-EcoEats
+    - link_name: Devpost
+      link: https://devpost.com/software/ecoeats-sgwzhp
+  desc: I was the project lead on EcoEats, an Android app that helps users recognize the environmental impacts of their diets through intuitive terms such as kilometers driven, trees cut down, and water usage. Our team created a database of common food items with their carbon dioxide emissions. Using the Google Cloud Vision API, the user takes an image and we take the keyword with the highest predictive percentage and search our database for that keyword. I primarily worked on the backend by connecting the user's phone camera to the Google Cloud Vision API and also helped in implementing our designer's UI.
+  techlist: 
+    - Java
+    - XML
+    - Figma
+    - Google Vision API
+  img_path: /res/ecoeats.jpg
+
+- name: Recipe Nest (nwHacks 2020)
+  short_desc: Web Development 
+  links: 
+    - link_name: Github 
+      link: https://github.com/lhao03/Recipe-Nest
+    - link_name: Devpost
+      link: https://devpost.com/software/recipe-finder-v5me7q
+  desc:
+    Recipe Nest is a chatbot deployed on Slack, the Web, and through calls. Users can talk to the application as if they were talking to a real chef including all their dietary restrictions and food preferences and Recipe Nest finds a recipe conforming to the users' requests. A chatbot (Dialogflow) was trained to be able to pick out certain parts of a user's conversation and sends the query to an API which is then returned to the user in a presentable form. 
+  techlist: 
+  - Python
+  - Bootstrap 
+  - HTML
+  - CSS
+  - Dialogflow
+  img_path: /res/recipenest.jpg
+  
+- name: Personal Website
   short_desc: Made with Hugo Templates
   links:
     - link_name: Github
       link: https://github.com/lhao03/personal-site-v2
-  desc: 
-    My inspiration for using Hugo comes from my fustration of scrolling through long html files. I found building an extensible static site appealing and since I was learning Golang, Hugo seemed like the perfect fit to practice templating. I'm messy when it comes to writing code and Hugo forces you to keep your files very structured while generating html code for you from a yaml file so this was a winwin for me!
+  desc: A lot of my HTML for my old website was very repetitive. These HTML files got very long, and I made a lot of spelling mistakes because I was too lazy to scroll through a giant file and scan for mistakes. At the same time, I was learning Golang, and I found out Hugo was made in Golang, so I decided to choose Hugo as my static site generator. You are currently on that site!
   techlist:
   - Hugo
   - HTML
@@ -35,43 +66,10 @@
       link: https://github.com/lhao03/usa-finances-and-incarceration-rates 
     - link_name: Devpost
       link: https://devpost.com/software/data-visualization-of-usa-spending?ref_content=user-portfolio&ref_feature=in_progress
-  desc: I challenged myself to complete the sociocultural track at Hack for the People, and this lead me deciding to use my data science skills to visualise and analyze some data. 
+  desc: I challenged myself to complete the sociocultural track at Hack for the People, and this lead me deciding to use my data science skills to visualise and analyze data pertaining to criminalization rates in the United States. 
   techlist: 
   - CSS
   - Python 
-  
-- name: EcoEats
-  short_desc: Android App Development
-  links:
-    - link_name: Github
-      link: https://github.com/lhao03/cmdf-EcoEats
-    - link_name: Devpost
-      link: https://devpost.com/software/ecoeats-sgwzhp
-  desc: 
-    Project lead on EcoEats, an Android app that helps users recognize the environmental impacts of their diets through intuitive terms such as kilometers driven, trees cut down, and water usage. Our app has a database containing common foods and their carbon dioxide emissions, and we take the keyword with the highest predictive percentage and search our database for that keyword. Worked on the backend by connecting the user's phone camera to the Google Cloud Vision API. Also helped in connecting the Figma generated UI components to the backend. 
-  techlist: 
-    - Java
-    - XML
-    - Figma
-    - Google Vision API
-  img_path: /res/ecoeats.jpg
-
-- name: Recipe Nest (NwHacks 2020)
-  short_desc: Web Development 
-  links: 
-    - link_name: Github 
-      link: https://github.com/lhao03/Recipe-Nest
-    - link_name: Devpost
-      link: https://devpost.com/software/recipe-finder-v5me7q
-  desc:
-    Recipe Nest is a chatbot deployed on Slack, the Web, and through calls. Users can talk to the application as if they were talking to a real chef including all their dietary restrictions and food preferences and Recipe Nest finds a recipe conforming to the users' requests. A chatbot (Dialogflow) was trained to be able to pick out certain parts of a user's conversation and sends the query to an API which is then returned to the user in a presentable form. 
-  techlist: 
-  - Python
-  - Bootstrap 
-  - HTML
-  - CSS
-  - Dialogflow
-  img_path: /res/recipenest.jpg
 
 # - name:
 #   short_desc:

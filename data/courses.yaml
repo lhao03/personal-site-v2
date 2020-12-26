@@ -13,6 +13,17 @@
           short_desc: Thermodynamics, Kinetics and Organic Chemistry
         - course: BIOL 112
           short_desc: Biology of the Cell
+  winter:
+        - course: CPSC 221 
+          short_desc: Basic Algorithms and Data Structures
+        - course: CHEM 233
+          short_desc: Organic Chemistry for the Biological Sciences
+        - course: BIOL 200 
+          short_desc: Fundamentals of Cell Biology
+        - course: MICB 202
+          short_desc: Introductory Medical Microbiology and Immunology
+        - course: MICB 201
+          short_desc: Introductory Environmental Microbiology
 
 - year: 2019
   winter:

@@ -86,4 +86,20 @@ div.bio div.card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
+div.bio div.job div.space-between {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.bio div.job p {
+    padding-right: 10px;
+}
+
+div.bio div.job div.space-between a.highlight {
+    text-decoration: none;
+    color: var(--highlight);
+    font-weight: 700;
+}
+
 /* jobs */

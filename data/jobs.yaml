@@ -1,3 +1,15 @@
-- name: Incoming
+- name: Incoming 
+  site: 
+  company: TBA
   date: Jan 2021 - Apr 2021
   description: TBA
+- name: Co-lead Software Developer 
+  site: https://github.com/UBC-BEST
+  company: UBC BEST
+  date: Sep 2020 - present
+  description: My peer and I are leading the software component of M2M. The app is being built in Kotlin Multiplatform and will interact with an Express server and Flask server. We are still in the starting stages of this project because of its complexity. During this pandemic, we are also leading 10 other students to help us develop this app.
+- name: Outreach Director 
+  site: https://www.starhacks.tech/
+  company: StarHacks
+  date: Sep 2020 - present
+  description: I lead outreach operations at StarHacks which deals with creating content to post on our Instagram, reaching out to other organizations to promote our event, and creating monthly newsletters. To accomplish my role I use tools such as Canva, Figma and MailChimp. 
