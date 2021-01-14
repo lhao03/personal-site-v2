@@ -1,8 +1,8 @@
-- name: Incoming 
-  site: 
-  company: TBA
+- name: Software Developer
+  site: http://www.proofcentre.ca/
+  company: PROOF Centre of Excellence 
   date: Jan 2021 - Apr 2021
-  description: TBA
+  description: Working on an NLP pipeline in Python to automate extraction of patient information from breast cancer reports in PDF format. 
 - name: Co-lead Software Developer 
   site: https://github.com/UBC-BEST
   company: UBC BEST
