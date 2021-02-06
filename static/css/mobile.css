@@ -10,6 +10,13 @@
 }
 
 @media (max-width: 768px) {
+    div.projects div.display {
+        display: flex;
+        flex-direction: column;
+    }
+    div.bio p.desc {
+        font-size: 10px;
+    }
     div.bio img {
         width: 90vw;
     }

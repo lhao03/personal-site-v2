@@ -1,0 +1,49 @@
+- name: Dialogue
+  short_desc: Web Development
+  links:
+    - link_name: Github
+      link: https://github.com/ansonyuu/nwhacks
+    - link_name: Devpost
+      link: https://devpost.com/software/seniors-chat
+  desc: "Imagine Omegle and Duolingo had a better, safer child that was made specifically for the elderly! Dialogue is a web application that connects seniors and youth volunteers with alike interests and spoken languages. Users are smoothly onboarded with a few questions about themselves: whether they are a senior/volunteer, name, interests, and preferred language. Our matching algorithm will then pair each senior with a youth volunteer, where they will then enter a private video chat room to meet each other and talk! The UI/UX of this app also has a major focus on ease of use and accessibility for seniors, something traditional video-chatting platforms lack."
+  techlist: 
+    - Express
+    - Figma
+    - Adobe
+    - MongoDB
+    - React Native
+    - WebRTC
+    - PeerJS
+    - Heroku
+    - Redux 
+    - Axios
+
+- name: EcoEats
+  short_desc: Android App Development
+  links:
+    - link_name: Github
+      link: https://github.com/lhao03/cmdf-EcoEats
+    - link_name: Devpost
+      link: https://devpost.com/software/ecoeats-sgwzhp
+  desc: I was the project lead on EcoEats, an Android app that helps users recognize the environmental impacts of their diets through intuitive terms such as kilometers driven, trees cut down, and water usage. Our team created a database of common food items with their carbon dioxide emissions. Using the Google Cloud Vision API, the user takes an image and we take the keyword with the highest predictive percentage and search our database for that keyword. I primarily worked on the backend by connecting the user's phone camera to the Google Cloud Vision API and also helped in implementing our designer's UI.
+  techlist: 
+    - Java
+    - XML
+    - Figma
+    - Google Vision API
+
+- name: Recipe Nest (nwHacks 2020)
+  short_desc: Web Development 
+  links: 
+    - link_name: Github 
+      link: https://github.com/lhao03/Recipe-Nest
+    - link_name: Devpost
+      link: https://devpost.com/software/recipe-finder-v5me7q
+  desc:
+    Recipe Nest is a chatbot deployed on Slack, the Web, and through calls. Users can talk to the application as if they were talking to a real chef including all their dietary restrictions and food preferences and Recipe Nest finds a recipe conforming to the users' requests. A chatbot (Dialogflow) was trained to be able to pick out certain parts of a user's conversation and sends the query to an API which is then returned to the user in a presentable form. 
+  techlist: 
+  - Python
+  - Bootstrap 
+  - HTML
+  - CSS
+  - Dialogflow
