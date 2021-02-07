@@ -12,26 +12,49 @@
     
     <div class="projects" id="projects">
         <h2>🔨 projects</h2>
-        <div class="project_list">
-            {{range $.Site.Data.projects}}
-            <div class="card">
-                <div class="container">
-                    <h3 class="title">{{.name}} - <a>{{.short_desc}}</a></h3>
-                    <div class="links">
-                    {{range $i, $e := .links}}
-                    <a href="{{$e.link}}" style="text-decoration: none; font-family: 'Open Sans';">
-                        {{if $i}}| {{end}}{{$e.link_name}}</a>
-                    {{end}}
+        <div class="display" id="display">
+            <div class="project_list">
+                {{range $.Site.Data.projects_left}}
+                <div class="card">
+                    <div class="container">
+                        <h3 class="title">{{.name}} - <a>{{.short_desc}}</a></h3>
+                        <div class="links">
+                        {{range $i, $e := .links}}
+                        <a href="{{$e.link}}" style="text-decoration: none; font-family: 'Open Sans';">
+                            {{if $i}}| {{end}}{{$e.link_name}}</a>
+                        {{end}}
+                    </div>
+                    <div class="desc">
+                        <p>{{.desc}}</p>
+                            <div class="techlist">{{range .techlist}}
+                                <p class="button" style="background-color: {{index $.Site.Data.colors .}};">{{.}}</p>
+                                  {{end}}</div>
+                    </div>
+                    </div>
                 </div>
-                <div class="desc">
-                    <p>{{.desc}}</p>
-                        <div class="techlist">{{range .techlist}}
-                            <p class="button" style="background-color: {{index $.Site.Data.colors .}};">{{.}}</p>
-                              {{end}}</div>
-                </div>
-                </div>
+                {{end}}
             </div>
-            {{end}}
+            <div class="project_list">
+                {{range $.Site.Data.projects_right}}
+                <div class="card">
+                    <div class="container">
+                        <h3 class="title">{{.name}} - <a>{{.short_desc}}</a></h3>
+                        <div class="links">
+                        {{range $i, $e := .links}}
+                        <a href="{{$e.link}}" style="text-decoration: none; font-family: 'Open Sans';">
+                            {{if $i}}| {{end}}{{$e.link_name}}</a>
+                        {{end}}
+                    </div>
+                    <div class="desc">
+                        <p>{{.desc}}</p>
+                            <div class="techlist">{{range .techlist}}
+                                <p class="button" style="background-color: {{index $.Site.Data.colors .}};">{{.}}</p>
+                                  {{end}}</div>
+                    </div>
+                    </div>
+                </div>
+                {{end}}
+            </div>
         </div>
     </div>
 </html> 

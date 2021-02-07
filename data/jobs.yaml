@@ -1,8 +1,13 @@
-- name: Incoming 
-  site: 
-  company: TBA
+- name: Undergraduate TA
+  site: http://www.proofcentre.ca/
+  company: UBC Faculty of Science 
+  date: Jan 2021 - present
+  description: Running three labs in CPSC 210 - Software Construction, which is taught in Java. 
+- name: Software Developer
+  site: http://www.proofcentre.ca/
+  company: PROOF Centre of Excellence 
   date: Jan 2021 - Apr 2021
-  description: TBA
+  description: Working on an NLP pipeline to automate extraction of patient information from breast cancer reports in PDF format. 
 - name: Co-lead Software Developer 
   site: https://github.com/UBC-BEST
   company: UBC BEST
@@ -12,4 +17,4 @@
   site: https://www.starhacks.tech/
   company: StarHacks
   date: Sep 2020 - present
-  description: I lead outreach operations at StarHacks which deals with creating content to post on our Instagram, reaching out to other organizations to promote our event, and creating monthly newsletters. To accomplish my role I use tools such as Canva, Figma and MailChimp. 
+  description: I lead outreach operations at StarHacks which deals with creating content to post on our Instagram, reaching out to other organizations to promote our event, and creating monthly newsletters. To accomplish my role I use tools such as Canva, Figma and MailChimp. I have brought in over 800 registrations as of Jan 22.
