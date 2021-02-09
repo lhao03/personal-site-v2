@@ -1,12 +1,12 @@
-- name: Undergraduate TA
-  site: http://www.proofcentre.ca/
+- name: Undergraduate Teaaching Assistant
+  site: https://www.cs.ubc.ca/
   company: UBC Faculty of Science 
   date: Jan 2021 - present
   description: Running three labs in CPSC 210 - Software Construction, which is taught in Java. 
 - name: Software Developer
   site: http://www.proofcentre.ca/
   company: PROOF Centre of Excellence 
-  date: Jan 2021 - Apr 2021
+  date: Jan 2021 - May 2021
   description: Working on an NLP pipeline to automate extraction of patient information from breast cancer reports in PDF format. 
 - name: Co-lead Software Developer 
   site: https://github.com/UBC-BEST
