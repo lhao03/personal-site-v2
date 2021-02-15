@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    {{partial "head.html" .}}
+    
+    <header>
+        <a href="{{ .Site.BaseURL }}">home </a>
+        <a href="{{ .Site.BaseURL }}/work" class="curr">work </a>
+        <a href="{{ .Site.BaseURL }}/classes">courses </a>
+        <a href="{{ .Site.BaseURL }}/projects">projects </a>
+        <a href="{{ .Site.BaseURL }}/failures">failures </a>
+    </header>
+    
+    <div class="bio" id="bio">
+        <h2>💼 work and experience</h2>
+        {{ range $.Site.Data.jobs }}
+        <div class="job card">
+                <div class="space-between">
+                    <h3 class="role">{{.name}} at <a href="{{.site}}" class="highlight">{{.company}}</a></h3>
+                    <p class="duration">{{.date}}</h4>
+                </div>
+            <p class="desc">{{.description}}</p> 
+        </div>
+        {{ end }}
+    </div>
+    <br>
+</html>

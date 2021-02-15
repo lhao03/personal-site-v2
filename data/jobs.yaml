@@ -1,20 +1,20 @@
 - name: Undergraduate Teaaching Assistant
   site: https://www.cs.ubc.ca/
   company: UBC Faculty of Science 
-  date: Jan 2021 - present
-  description: Running three labs in CPSC 210 - Software Construction, which is taught in Java. 
+  date: Jan 2021 - now
+  description: Running three labs in CPSC 210 - Software Construction, which is taught in Java and foccesses on Test Driven Design and Object Oriented programming.
 - name: Software Developer
   site: http://www.proofcentre.ca/
   company: PROOF Centre of Excellence 
-  date: Jan 2021 - May 2021
-  description: Working on an NLP pipeline to automate extraction of patient information from breast cancer reports in PDF format. 
+  date: Jan 2021 - now
+  description: Working on an NLP pipeline to automate extraction of surgical details from breast cancer surgery reports in PDF format. 
 - name: Co-lead Software Developer 
   site: https://github.com/UBC-BEST
   company: UBC BEST
-  date: Sep 2020 - present
-  description: My peer and I are leading the software component of M2M. The app is being built in Kotlin Multiplatform and will interact with an Express server and Flask server. We are still in the starting stages of this project because of its complexity. During this pandemic, we are also leading 10 other students to help us develop this app.
-- name: Outreach Director 
+  date: Sep 2020 - now
+  description: Co-leading the development of an app that aims to gamifiy the rehabilitation process for multiple sclerosis patients. The app is being built in Kotlin Multiplatform which will be connected to an Express and Flask server.  
+- name: Outreach and Tech Director 
   site: https://www.starhacks.tech/
   company: StarHacks
-  date: Sep 2020 - present
-  description: I lead outreach operations at StarHacks which deals with creating content to post on our Instagram, reaching out to other organizations to promote our event, and creating monthly newsletters. To accomplish my role I use tools such as Canva, Figma and MailChimp. I have brought in over 800 registrations as of Jan 22.
+  date: Sep 2020 - now
+  description: I lead outreach operations at StarHacks which deals with creating content to post on our Instagram, reaching out to other organizations to promote our event, and creating monthly newsletters. To accomplish my role I use tools such as Canva, Figma and MailChimp. StarHacks had 800+ registrants and 350+ attendees. 

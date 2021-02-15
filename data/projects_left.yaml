@@ -13,10 +13,7 @@
     - MongoDB
     - React Native
     - WebRTC
-    - PeerJS
     - Heroku
-    - Redux 
-    - Axios
 
 - name: EcoEats
   short_desc: Android App Development
