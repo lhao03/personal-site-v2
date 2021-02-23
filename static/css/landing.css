@@ -5,7 +5,6 @@
     margin: auto;
 }
 
-
 div.landing p {
     font-family: 'Open Sans';
     text-align: left;
@@ -84,8 +83,8 @@ div.bio {
 }
 
 div.bio img {
-    width: 30vw;
-    margin-bottom: 10px;
+    width: 20vw;
+    margin-bottom: 50px;
 }
 
 div.bio p.bio {

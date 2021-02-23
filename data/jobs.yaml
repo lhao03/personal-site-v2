@@ -2,7 +2,7 @@
   site: https://www.cs.ubc.ca/
   company: UBC Faculty of Science 
   date: Jan 2021 - now
-  description: Running three labs in CPSC 210 - Software Construction, which is taught in Java and foccesses on Test Driven Design and Object Oriented programming.
+  description: Running three labs in CPSC 210 - Software Construction, which is taught in Java and focusses on Test Driven Design and Object Oriented programming.
 - name: Software Developer
   site: http://www.proofcentre.ca/
   company: PROOF Centre of Excellence 
@@ -12,7 +12,7 @@
   site: https://github.com/UBC-BEST
   company: UBC BEST
   date: Sep 2020 - now
-  description: Co-leading the development of an app that aims to gamifiy the rehabilitation process for multiple sclerosis patients. The app is being built in Kotlin Multiplatform which will be connected to an Express and Flask server.  
+  description: Co-leading the development of an app that aims to gamifiy the rehabilitation process for multiple sclerosis patients. The app is being built in Kotlin Multiplatform and the backend is developed with a Express and Flask server.  
 - name: Outreach and Tech Director 
   site: https://www.starhacks.tech/
   company: StarHacks
