@@ -1,11 +1,4 @@
-<header>
-    <a href="{{ .Site.BaseURL }}" class="curr">home </a>
-    <a href="{{ .Site.BaseURL }}/work">work </a>
-    <a href="{{ .Site.BaseURL }}/classes">courses </a>
-    <a href="{{ .Site.BaseURL }}/projects">projects </a>
-    <a href="{{ .Site.BaseURL }}/failures">failures </a>
-</header>
-
+{{ partial "nav.html" . }}
 
 <div class="landing center" id="landing">    
     <h1 class="header">Hi, I'm <a class="name">Lucy</a>!
@@ -47,5 +40,4 @@
         </div>
         <img src="/res/profile.svg" alt="/res/profile.png">
     </div>
-
 </div>

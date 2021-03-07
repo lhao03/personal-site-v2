@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+  {{ partial "head.html" . }}
+  <body>
+    {{ partial "nav.html" . }}
+    <div class="container">
+      <h2>✍🏻 blog in the making...</h2>
+      <main id="main">
+       {{ block "main" . }}{{ end }}
+      </main>
+    </div>
+  </body>
+  <!-- {{partial "footer.html" .}} -->
+</html>

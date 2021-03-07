@@ -2,17 +2,11 @@
 <html lang="en">
     {{partial "head.html" .}}
     
-    <header>
-        <a href="{{ .Site.BaseURL }}">home </a>
-        <a href="{{ .Site.BaseURL }}/work">work </a>
-        <a href="{{ .Site.BaseURL }}/classes">courses </a>
-        <a href="{{ .Site.BaseURL }}/projects">projects </a>
-        <a href="{{ .Site.BaseURL }}/failures" class="curr">failures </a>
-    </header>
+    {{ partial "nav.html" . }}
     
     <div class="failures">
         <h2>🤷🏻 failures</h2>
-        <p class="statement" style="font-size: large;">Because everyone has fails once in a while. Despite what you think, no one is perfect!</p>
+        <p class="statement" style="font-size: large;">Because everyone has fails once in a while. No one is perfect!</p>
         {{range $.Site.Data.failure}}
         <h3>{{.year}}</h3>
         {{range .fails}}
@@ -21,4 +15,5 @@
         {{end}}
         {{end}}
     </div>
+    {{partial "footer.html" .}}
 </html> 

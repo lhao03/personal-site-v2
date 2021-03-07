@@ -2,13 +2,7 @@
 <html lang="en">
     {{partial "head.html" .}}
     
-    <header>
-        <a href="{{ .Site.BaseURL }}">home </a>
-        <a href="{{ .Site.BaseURL }}/work">work </a>
-        <a href="{{ .Site.BaseURL }}/classes">courses </a>
-        <a href="{{ .Site.BaseURL }}/projects" class="curr">projects </a>
-        <a href="{{ .Site.BaseURL }}/failures">failures</a>
-    </header>
+    {{ partial "nav.html" . }}
     
     <div class="projects" id="projects">
         <h2>🔨 projects</h2>
@@ -57,4 +51,5 @@
             </div>
         </div>
     </div>
+    {{partial "footer.html" .}}
 </html> 

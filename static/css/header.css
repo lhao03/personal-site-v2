@@ -24,14 +24,8 @@ header a {
     color: black;
 }
 
-header a.curr {
-    text-decoration: none;
-    font-family: var(--font);
-    font-weight: 800;
-    color: var(--header);
-}
-
 header a:hover {
     color: var(--header);
 }
+
 /*header*/

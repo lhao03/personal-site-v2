@@ -2,13 +2,7 @@
 <html lang="en">
     {{partial "head.html" .}}
     
-    <header>
-        <a href="{{ .Site.BaseURL }}">home </a>
-        <a href="{{ .Site.BaseURL }}/work" class="curr">work </a>
-        <a href="{{ .Site.BaseURL }}/classes">courses </a>
-        <a href="{{ .Site.BaseURL }}/projects">projects </a>
-        <a href="{{ .Site.BaseURL }}/failures">failures </a>
-    </header>
+    {{ partial "nav.html" . }}
     
     <div class="bio" id="bio">
         <h2>💼 work and experience</h2>
