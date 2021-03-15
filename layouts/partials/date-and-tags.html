@@ -8,7 +8,7 @@
     <i data-feather="tag"></i>
     <div style="display: flex; flex-direction: row; float: left;" class="tags">  {{ range . }}
       {{ $href := print (absURL "tags/") (urlize .) }}
-        <p class="btn">{{ . }}</p>
+        <p class="btn"><a style="text-decoration: none; color: black;" href="{{ $href }}">{{ . }}</a></p>
       <!-- <a class="btn btn-sm btn-outline-dark tag-btn" href="{{ $href }}">{{ . }}</a> -->
       {{ end }}
     </div>

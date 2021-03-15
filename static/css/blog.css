@@ -76,6 +76,11 @@ div.date-and-tags div.tags p.btn {
     font-family: 'Montserrat';
 }
 
+div.date-and-tags div.tags p.btn a {
+    text-decoration: none; 
+    color: black;
+}
+
 
 /* single */
 div.post {
