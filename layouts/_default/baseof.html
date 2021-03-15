@@ -3,12 +3,12 @@
   {{ partial "head.html" . }}
   <body>
     {{ partial "nav.html" . }}
+    <h2 class="title">✍🏻 my ramblings</h2>
     <div class="container">
-      <h2>✍🏻 blog in the making...</h2>
       <main id="main">
        {{ block "main" . }}{{ end }}
       </main>
     </div>
   </body>
-  <!-- {{partial "footer.html" .}} -->
-</html>
+  {{partial "footer.html" .}}
+</html> 

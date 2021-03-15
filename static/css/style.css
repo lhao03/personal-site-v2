@@ -1,10 +1,11 @@
-@import url("card.css");
 @import url("about.css");
-@import url("header.css");
-@import url("landing.css");
+@import url("blog.css");
+@import url("card.css");
+@import url("courses.css");
 @import url("fails-proj.css");
 @import url("footer.css");
-@import url("courses.css");
+@import url("header.css");
+@import url("landing.css");
 @import url("mobile.css");
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Open+Sans:wght@400;600;700;800&display=swap');
 

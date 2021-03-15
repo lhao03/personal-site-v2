@@ -1,8 +1,13 @@
 {{ define "main" }}
-
-<h1>{{ .Title }}</h1>
-{{ partial "date-and-tags.html" . }}
-<br><br>
-{{ .Content }}
-
+<div class="post">
+    <div class="tags-title">
+        <h1>{{ .Title }}</h1>
+        <!-- <p>{{ .Content | countwords }} words</p> -->
+        {{ partial "date-and-tags.html" . }}
+    </div>
+    {{ if and (gt .WordCount 300) }}
+    {{ .TableOfContents }}
+    {{ end }}
+    {{ .Content }}
+</div>
 {{ end }}

@@ -1,0 +1,113 @@
+:root {
+    --font : 'Montserrat';
+    --light: #BCD2EE;
+    --dark: #EE5622;
+    --darker: #938BA1;
+
+    --background: var(--light) !important;
+    --highlight: var(--dark) !important;
+    --header: var(--darker) !important;
+}
+
+/* list and baseof */
+h2.title {
+    padding-left: 25vw;
+} 
+
+div.container div.blog-list {
+    font-family: 'Montserrat';
+    margin: auto;
+    width: 40%;
+}
+
+div.container div.blog-list div.title-summary {
+    display: flex;
+    flex-direction: column;
+}
+
+div.container div.blog-list div.title-summary a.post-title {
+    font-family: 'Montserrat';
+    text-decoration: none;
+    height: min-content;
+    width: fit-content;
+    font-weight: bold;
+    color: var(--darker);
+}
+
+div.container div.blog-list div.title-summary div.title-date a.post-title:hover {
+    background-color: var(--darker);
+    color: var(--light);
+}
+
+div.container div.blog-list div.title-summary div.title-date {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between;
+}
+
+/* date and tags */
+div.date-and-tags {
+    display: flex; 
+    flex-direction: row; 
+    float: left;
+}
+
+div.date-and-tags p.time {
+    text-align: left;
+}
+
+div.date-and-tags div.tags {
+    display: flex; 
+    flex-direction: row; 
+    float: left;
+}
+
+div.date-and-tags div.tags p.btn {
+    display: inline-block;
+    background-color: var(--darker);
+    padding: 5px;
+    bottom: 0;
+    width: fit-content;
+    height: min-content;
+    border-radius: 5px;
+    margin-bottom: -5px;
+    margin-left: 5px;
+    font-size: 12px;
+    font-family: 'Montserrat';
+}
+
+
+/* single */
+div.post {
+    font-family: 'Montserrat'; 
+    margin: auto; 
+    width: 50%;
+}
+
+div.tags-title {
+    display: flex; 
+    flex-direction: column;
+}
+
+div.post ul li a {
+    text-decoration: underline;
+    text-decoration-color: var(--darker);
+    color: black;
+}
+
+div.post ul li a:hover {
+    background-color: var(--darker);
+}
+
+div.post h1 {
+
+}
+
+div.post h2 {
+    font-size: 25px;
+    padding-left: 0;
+}
+
+div.post h3 {
+
+}

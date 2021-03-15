@@ -50,6 +50,10 @@
         font-size: 15px;
     }
 
+    div.landing h3.lesser-header {
+        font-size: 20px;
+    }
+
     div.landing h1.header {
         font-size: 25px;
     }
@@ -102,5 +106,45 @@
         display: contents;
         display: flex;
         justify-content: space-around;
+    }
+
+    /* list and baseof */
+    h2.title {
+        font-size: 25px;
+        padding-left: 10vw;
+    } 
+    
+    div.container div.blog-list {
+        margin: auto;
+        width: 85%;
+    }
+
+    div.date-and-tags p.time {
+        font-size: 12px;
+    }
+    
+    div.date-and-tags div.tags p.btn {
+            padding: 5px;
+            bottom: 0;
+            width: fit-content;
+            height: min-content;
+            border-radius: 5px;
+            margin-bottom: -5px;
+            margin-left: 5px;
+            font-size: 9px;
+    }
+
+    div.container div.blog-list div.title-summary div.title-date {
+        display: flex; 
+        flex-direction: column; 
+    }
+    
+    /* single */
+    div.post {
+        width: 85%;
+    }
+    
+    div.post div.tags-title h1 {
+        font-size: 15px;
     }
 }

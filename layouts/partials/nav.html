@@ -3,7 +3,7 @@
     <nav id="nav" class="nav justify-content-center">
     {{ range .Site.Menus.main }}
       {{ $text := print .Name | safeHTML }}
-      <a class="nav-link" href="{{ .URL }}" style="margin: 15px;">{{ $text }}</a>
+      <a class="nav-link" href="{{ .URL }}" style="margin: .15vw;">{{ $text }}</a>
     {{ end }}
     </nav>
   </div>
