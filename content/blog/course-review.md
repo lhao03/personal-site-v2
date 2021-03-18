@@ -1,7 +1,7 @@
 ---
 title: "📚 Course Review"
 date: 2021-03-13T22:14:57-06:00
-tags: ["ubc", "school", "reviews"]
+tags: ["ubc", "cs", "life sciences", "reviews"]
 draft: false
 ---
 
@@ -27,7 +27,7 @@ This course is pretty much your standard data structures and algorithms courses.
 Just your basic first year university differential calculus course. But this course is nothing like high school calculus. Just because you got 100 in high school calculus does not mean you can ace this course. Always attend lecture, do textbook questions and attend office hours. Unfortunately I never attended office hours and MATH 100 is one of my lowest marks.
 
 ### MATH 101
-Just your basic first year integral calculus course. Same as for MATH 100 ^^^.
+Just your basic first year integral calculus course. I had the same thoughts on this course as I did for MATH 100.
 
 ### STAT 251
 There's not much to say about this course. It's a pretty standard statistics course which teaches you about all the different types of distributions, conditional probability and more. Make sure you're caught up on the textbook readings and questions and you won't have too much trouble with this course.
@@ -45,10 +45,10 @@ Since I'm not a chemistry major 😭, this was the only organic chemistry course
 
 ## Biology
 ### BIOL 112
-I took this introductory biology course in the summer of Covid 19. Having not taken Biology 30, I found this course pretty manageable. If you remember grade 12 biology you will be set.
+I took this introductory biology course in the summer of covid 19. Having not taken Biology 30, I found this course pretty manageable. If you remember grade 12 biology you will be set.
 
 ### BIOL 200
-This course helped me really appreciate the biology of our body! 
+This course helped me really appreciate the biology of our body! My instructor, Vivienne, made the course really engaging and taught the content in a fun and effective way. She also let us stamp and draw all over her zoom slides. Despite the course being all online, Vivienne made sure that we had many chances to engage with herself and the other students. In addition, the course content is super interesting, and helped me reinforce concepts I learned in MICB 202. 
 
 ---
 

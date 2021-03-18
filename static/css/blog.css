@@ -15,9 +15,9 @@ h2.title {
 } 
 
 div.container div.blog-list {
-    font-family: 'Montserrat';
+    font-family: var(--font);
     margin: auto;
-    width: 40%;
+    width: 60%;
 }
 
 div.container div.blog-list div.title-summary {
@@ -26,7 +26,7 @@ div.container div.blog-list div.title-summary {
 }
 
 div.container div.blog-list div.title-summary a.post-title {
-    font-family: 'Montserrat';
+    font-family: var(--font);
     text-decoration: none;
     height: min-content;
     width: fit-content;
@@ -50,10 +50,12 @@ div.date-and-tags {
     display: flex; 
     flex-direction: row; 
     float: left;
+    width: max-content;
 }
 
 div.date-and-tags p.time {
     text-align: left;
+    width: max-content;
 }
 
 div.date-and-tags div.tags {
@@ -73,7 +75,7 @@ div.date-and-tags div.tags p.btn {
     margin-bottom: -5px;
     margin-left: 5px;
     font-size: 12px;
-    font-family: 'Montserrat';
+    font-family: var(--font);
 }
 
 div.date-and-tags div.tags p.btn a {
@@ -84,7 +86,7 @@ div.date-and-tags div.tags p.btn a {
 
 /* single */
 div.post {
-    font-family: 'Montserrat'; 
+    font-family: var(--font); 
     margin: auto; 
     width: 50%;
 }
@@ -101,6 +103,16 @@ div.post ul li a {
 }
 
 div.post ul li a:hover {
+    background-color: var(--darker);
+}
+
+div.post a {
+    text-decoration: underline;
+    text-decoration-color: var(--darker);
+    color: black;
+}
+
+div.post a:hover {
     background-color: var(--darker);
 }
 

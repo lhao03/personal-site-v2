@@ -15,3 +15,5 @@ Hello! Thank you 😌 for checking out my blog. <!--more--> I don't have any gra
 - https://tigeroakes.com/posts/
 
 If you want to start a conversation from one of my blog posts or simply found my writing interesting, let me know by sending me an email!
+
+I built my blog in Hugo from this tutorial: https://zwbetz.com/make-a-hugo-blog-from-scratch/
