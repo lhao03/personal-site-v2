@@ -1,43 +1,91 @@
 {{ partial "nav.html" . }}
 
-<div class="landing center" id="landing">    
-    <h1 class="header">Hi, I'm <a class="name">Lucy</a>!
-        <img class="shibe" src="/res/doge.png">
-        </h1> 
-            <h3 class="lesser-header">Who am I?</h3>
-            <p class="statement">
-                I'm a 2nd year <a class="highlight" href="https://www.cs.ubc.ca/" target="_blank">👩🏻‍💻 Computer Science</a> major and (hopeful) <a class="highlight">🧬 Biochemistry</a> minor at the <a href="https://www.ubc.ca/" class="highlight" target="_blank">University of British Columbia</a>.
-                This January, I am on a work term! I am currently a software developer intern at <a class="highlight" href="http://www.proofcentre.ca/" target="_blank">The Centre of Excellence for Prevention of Organ Failure</a>, a biotechnology company, and undergraduate TA for <a class="highlight" href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=CPSC&course=210" target="_blank">CPSC 210</a>.
-            </p>
-            <h3 class="lesser-header">What else am I doing?</h3>
-            <p class="statement">I'm a developer at <a class="highlight" href="http://www.ubcbest.com/" target="_blank">UBC BEST</a> and I co-lead the software component of M2M - Multiple Sclerosis to Movement, an emerging 
-                mobile app that aims to gamify therapy and rehabilitation for those with multiple sclerosis. Additionally, I am the Director of Outreach and Technology at <a href="https://www.starhacks.tech/" class="highlight" target="_blank">StarHacks</a>, all-female and nonbinary high school and collegiate hackathon.</p>
-            <h3 class="lesser-header">Time for fun facts!</h3>
-            {{ range $.Site.Data.me}}
-            <p class="statement">{{.fact}}</p>
-            {{end}}
-            <div class="music">
-                <p class="statment">🎶 A peek at my current vibe:</p>
-                <div class="songs" style="display: flex; justify-content: space-between;">
-                {{ range $.Site.Data.songs}}
-                    <iframe class="song1" src={{.link}} width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                    {{end}}
-                </div>
-                <p class="statment">All credits to Spotify</p>
-            </div>
+<div class="landing center" id="landing">
+  <h1 class="header">
+    Hi, I'm <a class="name">Lucy</a>!
+    <img class="shibe" src="/res/doge.png" />
+  </h1>
+  <h3 class="lesser-header">Who am I?</h3>
+  <p class="statement">
+    ✨ I'm a chemistry nerd and aspiring developer who eats way too
+    much chocolate and has many pictures of shiba inus on her phone.
+    My favorite game is the <a href="https://goose.game/" class="highlight">Untitled Goose Game</a> and
+    I enjoy drawing out organic chemistry reaction pathways. 
+  </p>
+  <h3 class="lesser-header">What am I doing?</h3>
+  <p class="statement">
+    I'm a 2nd year
+    <a class="highlight" href="https://www.cs.ubc.ca/" target="_blank">👩🏻‍💻 Computer Science</a>
+    major and (hopeful) <a class="highlight">🧬 Biochemistry</a> minor at the
+    <a href="https://www.ubc.ca/" class="highlight" target="_blank">University of British Columbia</a>. Additionally,
+    I'm an undergraduate teaching assistant for
+    <a class="highlight"
+      href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=CPSC&course=210"
+      target="_blank">CPSC 210</a>.
+  </p>
+
+  <p class="statement">
+    Currently, I am on a work term! I'm a software developer intern at <a class="highlight"
+      href="http://www.proofcentre.ca/" target="_blank">The Centre of Excellence for Prevention of
+      Organ Failure</a>, a biotechnology company. Under <a href="https://www.cs.ubc.ca/~rng/" class="highlight"
+      target="_blank">Professor
+      Raymond Ng</a>, <a href="https://surgery.med.ubc.ca/people/k-isaac/" class="highlight" target="_blank">Dr. Kathryn
+      Isaac</a> and
+    <a href="http://www.proofcentre.ca/subscribe/our-team/management-team/dr-zsuzsanna-hollander/" class="highlight"
+      target="_blank">Dr.
+      Zsuzsanna Hollander</a>, we are working towards automating the extraction of surgical data from reports.
+  </p>
+
+  <p class="statement">
+    Outside of school and work, I co-lead the software development of <a href="https://github.com/UBC-BEST"
+      class="highlight">M2M</a>, a project under <a class="highlight" href="http://www.ubcbest.com/"
+      target="_blank">UBC's Biomedical Engineering Student Team</a>. <a href="https://github.com/UBC-BEST"
+      class="highlight">M2M</a> is an
+    emerging mobile app that aims to gamify therapy and rehabilitation for those with multiple sclerosis. Additionally,
+    I am the
+    Director of Outreach and Technology at <a href="https://www.starhacks.tech/" class="highlight"
+      target="_blank">StarHacks</a>, a hackathon that is now a
+    nonprofit striving to create spaces for gender minorities in computer science.
+  </p>
+
+  <h3 class="lesser-header">What have I done?</h3>
+  <p class="statement">
+    Even though I'm still learning about the world of computer science, I enjoy mentoring at hackathons and organizing
+    them! As the Outreach Director, I brought in over 800 registrants for the first iteration of StarHacks!
+    I've also led two workshops (Intro to Python and Intro to
+    Git/GitHub), both at StarHacks. And lastly, I am a full IB graduate! If you're interested in IB, you can read how IB
+    impacted my time at UBC <a class="highlight" href="https://lhao03.github.io/blog/ib/">here</a>.
+  </p>
+
+  <h3 class="lesser-header">Time for fun facts!</h3>
+  {{ range $.Site.Data.me}}
+  <p class="statement">{{.fact}}</p>
+  {{end}}
+  <div class="music">
+    <p class="statment">🎶 A peek at my current vibe:</p>
+    <div class="songs" style="display: flex; justify-content: space-between">
+      {{ range $.Site.Data.songs}}
+      <iframe class="song1" src="{{.link}}" width="300" height="380" frameborder="0" allowtransparency="true"
+        allow="encrypted-media"></iframe>
+      {{end}}
+    </div>
+    <p class="statment">All credits to Spotify</p>
+  </div>
 </div>
 <div class="bio" id="bio">
-    <div class="outer-bio"> 
-        <div class="intro">
-            <p class="bio">
-                ✨ Thanks for checking out my site! I'm a chemistry nerd and aspiring developer who is interested in health tech, fintech and environmental tech.
-                If you want to learn more about me feel free to email me at
-                <a href="mailto:hao.lucyy@gmail.com" class="highlight">hao.lucyy@gmail.com</a> and/or check out my resume!
-            </p>
-            <a href="/res/resume.pdf" style="text-decoration: none; color: black;" target="_blank"><div class="button">
-                <p class="resume" style="padding: 5px;">Resume</p>
-            </div></a>
+  <div class="outer-bio">
+    <div class="intro">
+      <p class="bio">
+        ✨ Chat with me at
+        <a href="mailto:hao.lucyy@gmail.com" class="highlight">hao.lucyy@gmail.com</a>
+        and/or check out my resume!
+      </p>
+      <a href="/res/resume.pdf" style="text-decoration: none; color: black" target="_blank">
+        <div class="button">
+          <p class="resume" style="padding: 5px">Resume</p>
         </div>
-        <img src="/res/profile.svg" alt="/res/profile.png">
+      </a>
     </div>
+    <img src="/res/profile.svg" alt="/res/profile.png" />
+  </div>
 </div>

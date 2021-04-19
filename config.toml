@@ -1,6 +1,6 @@
 baseURL = "https://lhao03.github.io/"
 languageCode = "en-us"
-title = "Lucy Hao | UBC"
+title = "Lucy Hao | Computer Science Student at UBC"
 
 [permalinks]
     blog = "blog/:filename/"
@@ -32,7 +32,10 @@ title = "Lucy Hao | UBC"
     url = "/failures/"
     weight = 5
 
-    
+  [markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [taxonomies]
   tag = "tags"

@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-    {{partial "head.html" .}}
-    
-    {{ partial "nav.html" . }}
-    
-    <div class="failures">
-        <h2>🤷🏻 failures</h2>
-        <p class="statement" style="font-size: large;">Because everyone has fails once in a while. No one is perfect!</p>
-        {{range $.Site.Data.failure}}
-        <h3>{{.year}}</h3>
-        {{range .fails}}
-        <li class="statement">{{.}}</li>
-        <br>
-        {{end}}
-        {{end}}
-    </div>
-    {{partial "footer.html" .}}
-</html> 
+{{partial "head.html" .}} {{ partial "nav.html" . }}
+
+<div class="failures">
+  <h2>🤷🏻 failures</h2>
+  <p class="statement" style="font-size: large">
+    Because everyone has fails once in a while. No one is perfect!
+  </p>
+  {{range $.Site.Data.failure}}
+  <h3>{{.year}}</h3>
+  {{range .fails}}
+  <li class="statement">{{.}}</li>
+  <br />
+  {{end}} {{end}}
+</div>
+{{partial "footer.html" .}}
+
+</html>

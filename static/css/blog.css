@@ -1,13 +1,7 @@
-:root {
-    --font : 'Montserrat';
-    --light: #BCD2EE;
-    --dark: #EE5622;
-    --darker: #938BA1;
-
-    --background: var(--light) !important;
-    --highlight: var(--dark) !important;
-    --header: var(--darker) !important;
-}
+/* img {
+    width: 50vw;
+    border-radius: 5px;
+} */
 
 /* list and baseof */
 h2.title {
@@ -88,7 +82,7 @@ div.date-and-tags div.tags p.btn a {
 div.post {
     font-family: var(--font); 
     margin: auto; 
-    width: 50%;
+    width: 70%;
 }
 
 div.tags-title {
@@ -127,4 +121,9 @@ div.post h2 {
 
 div.post h3 {
 
+}
+
+div.code {
+   width: fit-content;
+   margin: auto;
 }

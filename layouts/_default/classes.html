@@ -1,42 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-    {{partial "head.html" .}}
-    
-    {{ partial "nav.html" . }}
-    
-    <div class="classes">
-        <h2>📚 courses</h2>
-        {{range $.Site.Data.courses}}
-        <div class="terms">
-            {{if (.spring)}}
-            <div class="spring">
-                <h4>Spring {{.year}}</h4>
-                {{range .spring}}
-                <p class="course">{{.course}}</p>
-                <p class="short_desc">{{.short_desc}}</p>
-                {{end}}
-            </div>
-            {{end}}
-            {{if (.summer)}}
-            <div class="summer">
-                <h4>Summer {{.year}}</h4>
-                {{range .summer}}
-                <p class="course">{{.course}}</p>
-                <p class="short_desc">{{.short_desc}}</p>
-                {{end}}
-            </div>
-            {{end}}
-            {{ if (.winter)}}
-            <div class="winter">
-                <h4>Winter {{.year}}</h4>
-                {{range .winter}}
-                <p class="course">{{.course}}</p>
-                <p class="short_desc">{{.short_desc}}</p>
-                {{end}}
-            </div>
-            {{end}}
-        </div>
-        {{end}}
+{{partial "head.html" .}} {{ partial "nav.html" . }}
+
+<div class="classes">
+  <h2>📚 courses</h2>
+  {{range $.Site.Data.courses}}
+  <div class="terms">
+    {{if (.spring)}}
+    <div class="spring">
+      <h4>Spring {{.year}}</h4>
+      {{range .spring}}
+      <p class="course">{{.course}}</p>
+      <p class="short_desc">{{.short_desc}}</p>
+      {{end}}
     </div>
-    {{partial "footer.html" .}}
-</html> 
+    {{end}} {{if (.summer)}}
+    <div class="summer">
+      <h4>Summer {{.year}}</h4>
+      {{range .summer}}
+      <p class="course">{{.course}}</p>
+      <p class="short_desc">{{.short_desc}}</p>
+      {{end}}
+    </div>
+    {{end}} {{ if (.winter)}}
+    <div class="winter">
+      <h4>Winter {{.year}}</h4>
+      {{range .winter}}
+      <p class="course">{{.course}}</p>
+      <p class="short_desc">{{.short_desc}}</p>
+      {{end}}
+    </div>
+    {{end}}
+  </div>
+  {{end}}
+</div>
+{{partial "footer.html" .}}
+
+</html>

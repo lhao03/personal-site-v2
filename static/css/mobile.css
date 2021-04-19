@@ -1,14 +1,3 @@
-:root {
-    --font : 'Montserrat';
-    --light: #BCD2EE;
-    --dark: #EE5622;
-    --darker: #938BA1;
-
-    --background: var(--light) !important;
-    --highlight: var(--dark) !important;
-    --header: var(--darker) !important;
-}
-
 @media (max-width: 768px) {
     div.projects div.display {
         display: flex;

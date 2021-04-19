@@ -9,11 +9,13 @@
 @import url("mobile.css");
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Open+Sans:wght@400;600;700;800&display=swap');
 
+/* E85D75 */
+
 :root {
     --font : 'Montserrat';
-    --light: #BCD2EE;
-    --dark: #EE5622;
-    --darker: #938BA1;
+    --light: white;
+    --dark: #5B5F97; 
+    --darker: #B8B8D1;
 
     --background: var(--light) !important;
     --highlight: var(--dark) !important;
