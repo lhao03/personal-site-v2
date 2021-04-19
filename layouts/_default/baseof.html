@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+{{ partial "head.html" . }}
+
+<body>
+  {{ partial "nav.html" . }}
+  <h2 class="title">✍🏻 my ramblings</h2>
+  <div class="container">
+    <main id="main">{{ block "main" . }}{{ end }}</main>
+  </div>
+</body>
+{{partial "footer.html" .}}
+
+</html>

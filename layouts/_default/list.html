@@ -1,0 +1,15 @@
+{{ define "main" }}
+<div id="blog_list" class="blog-list">
+  {{ range .Pages.ByPublishDate.Reverse }}
+  <p>
+    <div class="title-summary">
+      <div class="title-date">
+        <a class="post-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{ partial "date-and-tags.html" . }}
+      </div>
+      {{ .Summary }}
+    </div>
+  </p>
+  {{ end }}
+</div>
+{{ end }}

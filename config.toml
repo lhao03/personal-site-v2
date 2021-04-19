@@ -1,18 +1,41 @@
 baseURL = "https://lhao03.github.io/"
 languageCode = "en-us"
-title = "Lucy Hao | UBC"
+title = "Lucy Hao | Computer Science Student at UBC"
 
 [permalinks]
-    about = "/:filename/"
+    blog = "blog/:filename/"
 
-[[params.nav]]
-  identifier = "about"
-  name = "About"
-  url = "/about/"
-  weight = 3
+[menu]
+  [[menu.main]]
+    name = "home"
+    pre = "home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "blog"
+    pre = "blog"
+    url = "/blog/"
+    weight = 2
+  [[menu.main]]
+    name = "courses"
+    pre = "courses"
+    url = "/classes/"
+    weight = 3
+  [[menu.main]]
+    name = "projects"
+    pre = "projects"
+    url = "/projects/"
+    weight = 4
+  [[menu.main]]
+    name = "failures"
+    pre = "failures"
+    url = "/failures/"
+    weight = 5
 
-[[params.nav]]
-  identifier = "projects"
-  name = "Projects"
-  url = "/tags/"
-  weight = 3
+  [markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[taxonomies]
+  tag = "tags"
