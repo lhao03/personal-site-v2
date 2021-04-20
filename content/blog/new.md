@@ -5,7 +5,7 @@ tags: ["me"]
 draft: false
 ---
 
-Hello! Thank you 😌 for checking out my blog! I plan to write by life and some ramblings. My motivation for making my own blog stems from reading other people's blogs! 
+Hello! Thank you 😌 for checking out my blog! I plan to write about my life and my ramblings. My motivation for making my own blog stems from reading other people's blogs! 
 <!--more-->
 
 ### Check them out:
