@@ -16,6 +16,11 @@ div.landing p.statement a.highlight {
     font-weight: 700;
 }
 
+div.landing div.me-box {
+    display: flex;
+    flex-direction: row;
+}
+
 div.music {
     display: block;
 }

@@ -1,4 +1,10 @@
 @media (max-width: 768px) {
+
+    div.landing div.me-box {
+        display: flex;
+        flex-direction: column;
+    }
+
     div.projects div.display {
         display: flex;
         flex-direction: column;
@@ -58,9 +64,6 @@
         flex-direction: column;
     }
 
-    #landing img.shibe {
-        height: 25px;
-    }
 
     div.bio h2 {
         font-size: 25px;
