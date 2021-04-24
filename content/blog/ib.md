@@ -72,22 +72,19 @@ Am I glad I took IB? Of course! If I were given the chance to do high school aga
 
 Check here for all the credits you can get for your IB courses: https://you.ubc.ca/applying-ubc/applied/first-year-credit/
 
-You're a student who <span style="background-color: #e75480">hates</span> taking <span style="background-color: #e75480">arts</span> electives:
+You're a student who <span>does not</span> to want to take any <span>arts</span> electives:
 - Take History HL, English Literature HL, any HL language course.
-- If you are a full IB student, score well on your Theory of Knowledge essay (at least a B) and you can get 6 philosophy credits (thats two courses).
+- If you are a full IB student, score well on your Theory of Knowledge essay (at least a B) and you can get 6 philosophy credits (that's two courses).
 - If you're a BSc. you will have fulfilled all your arts requirements (including communications)
 
-You're a student is okay with arts electives, but you <span style="background-color: #e75480">don't</span> want <span style="background-color: #e75480">English</span> to drag down your GPA:
+You're a student who <span>does not</span> to want to take any <span>science</span> electives:
+- Taky any HL science in high school and you will get at least 3/4 credits if you score well on your IB exams!
+
+You're a student is okay with arts electives, but you <span>don't</span> want <span>English</span> to drag down your GPA:
 - Take English Literature HL or English Language and Literature HL. As a BSc. student you will have fulfilled your communications requirement. 
 
-You're a student who <span style="background-color: #e75480">hates</span> taking <span style="background-color: #e75480">science</span> electives:
-- Take Physics HL, Chemistry HL, Biology HL or Computer Science HL. 
+You're a student who <span>does not want</span> to take any science electives with a <span>lab</span> components:
+- Take Physics HL, Chemistry HL or Biology HL in high school and you won't need to do a lab science in uni!
 
-You're a student who <span style="background-color: #e75480">hates</span> science electives with <span style="background-color: #e75480">lab</span> components:
-- Take Physics HL, Chemistry HL or Biology HL.
-
-You're a student who <span style="background-color: #e75480">hates math</span>:
-- take MATH HL and if you're in a degree other than math, computer science, physics, chemistry or engineering you will never have to take another math course ever again. 
-
-You're a student who <span style="background-color: #e75480">loves X</span> (and you want to get straight into the <span style="background-color: #e75480">higher level</span> X courses):
+You're a student who <span>loves X</span> (and you want to get straight into the <span>higher level</span> X courses):
 - Take the HL version of X and you will be able to register into second year courses!

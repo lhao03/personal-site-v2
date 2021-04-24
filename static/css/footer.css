@@ -4,11 +4,7 @@ div.contact {
     width: 50%;
 }
 
-#contact img {
-    height: 5vw;
-}
-
-div.contact div.links {
+#contact div.links {
     display: flex;
     justify-content: space-around;
 }
@@ -24,14 +20,6 @@ div.contact h1.header {
     font-family: var(--font);
     font-weight: 800;
     font-size: 3em;
-}
-
-#contact div.mobile {
-    display: none;
-}
-
-div.col div.img img {
-    display: none;
 }
 
 /*footer*/

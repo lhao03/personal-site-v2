@@ -1,14 +1,11 @@
 <div class="contact" id="contact">
-    <div class="links">
+    <div class="links" style="display: flex; flex-direction: row; justify-content: space-evenly;">
         {{range $.Site.Data.links}}
         <a href="{{.link}}" target="_blank" style="font-family: 'Open Sans'; text-decoration: none;">
-            <img src="{{.fa}}"></a>
-        {{end}}
-    </div>
-    <div class="mobile">
-        {{range $.Site.Data.links}}
-        <a href="{{.link}}" target="_blank" style="font-family: 'Open Sans'; text-decoration: none;">
-            <img src="{{.fa}}"></a>
+            <div style="margin: 10px;">
+                <p class="links" style="text-decoration: none; background-color: var(--darker); color: black;">{{.link_name}}</p>
+            </div>
+        </a>
         {{end}}
     </div>
     <p>made with 💖 and Hugo</a> by Lucy</p>

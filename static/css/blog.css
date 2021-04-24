@@ -85,6 +85,10 @@ div.tags-title {
     flex-direction: column;
 }
 
+div.post span {
+    background-color: var(--darker);
+}
+
 div.post ul li a {
     text-decoration: underline;
     text-decoration-color: var(--darker);

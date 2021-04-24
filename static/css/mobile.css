@@ -91,13 +91,7 @@
     }
 
     #contact div.links {
-        display: none;
-    }
-
-    #contact div.mobile {
-        display: contents;
-        display: flex;
-        justify-content: space-around;
+        font-size: 5px;
     }
 
     /* list and baseof */

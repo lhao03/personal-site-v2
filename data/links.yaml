@@ -1,12 +1,10 @@
 - link_name: email
   link: mailto:hao.lucyy@gmail.com
-  fa: /res/fontawesome/envelope.svg
 - link_name: github
   link: https://github.com/lhao03
-  fa: /res/fontawesome/github.svg
 - link_name: linkedin
   link: https://linkedin.com/in/lucy-hao
-  fa: /res/fontawesome/linked.svg
+- link_name: twitter
+  link: https://twitter.com/hoalycu
 # - link_name: 
 #   link: 
-#   fa:
